@@ -4,6 +4,12 @@
   <img alt="Yixuan He - AI Solutions Builder and Systems Thinker" src="./assets/profile-banner-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/animated-tagline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/animated-tagline-light.svg">
+  <img alt="Rotating highlights of what Yixuan builds" src="./assets/animated-tagline-light.svg" width="100%">
+</picture>
+
 <p align="center">
   <a href="https://www.yixuanhe.com"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/yixuanhe2/"><img src="https://img.shields.io/badge/LINKEDIN-2463EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -67,6 +73,14 @@ DESIGN         Figma | Photoshop | Illustrator | Premiere Pro | Final Cut Pro
 2. **Design the whole system.** Data, interfaces, deployment, users, and incentives belong in the same architecture.
 3. **Ship usable artifacts.** A working product beats an impressive prototype that never leaves the demo.
 4. **Make complexity legible.** Good systems help technical and business teams reason together.
+
+## `$ tail -f contribution-stream.svg`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heyixuan2/heyixuan2/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heyixuan2/heyixuan2/output/github-contribution-grid-snake.svg">
+  <img alt="Animated snake moving through Yixuan's GitHub contribution graph" src="https://raw.githubusercontent.com/heyixuan2/heyixuan2/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
 <p align="center">
   <sub>Business problem -> technical system -> production impact</sub>

@@ -1,36 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
-  <title id="title">Yixuan He - AI Solutions Builder and Systems Thinker</title>
-  <desc id="desc">A dark technical grid banner with blue accents.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+  <title id="title">Yixuan He — AI Solutions Builder and Systems Thinker</title>
+  <desc id="desc">Animated dark technical grid with flowing data signals and electric blue accents.</desc>
   <defs>
-    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
-      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#243244" stroke-width="1"/>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#243244" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.4" fill="#34465f"/>
     </pattern>
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.46" stop-color="#f8fafc"/>
+      <stop offset="0.62" stop-color="#60a5fa"/>
+      <stop offset="0.76" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+      <animate attributeName="x1" values="-1;0.6;-1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1.6;0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.30"/>
+      <stop offset="0.48" stop-color="#1d4ed8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#0d1117" stop-opacity="0"/>
-      <stop offset="0.65" stop-color="#0d1117" stop-opacity="0.36"/>
-      <stop offset="1" stop-color="#0d1117"/>
+      <stop offset="0.68" stop-color="#0d1117" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0.82"/>
     </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .grid-drift { animation: grid-drift 18s linear infinite; }
+      .network { stroke-dasharray: 8 12; animation: signal 14s linear infinite; }
+      .network.reverse { animation-direction: reverse; animation-duration: 18s; }
+      .cursor { animation: blink 1.05s steps(2, end) infinite; }
+      .ring-a { animation: ring 4s ease-out infinite; transform-origin: 1110px 196px; }
+      .ring-b { animation: ring 4s 2s ease-out infinite; transform-origin: 1110px 196px; }
+      @keyframes grid-drift { to { transform: translate(56px, 56px); } }
+      @keyframes signal { to { stroke-dashoffset: -240; } }
+      @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+      @keyframes ring { 0% { opacity: .5; transform: scale(.45); } 80%, 100% { opacity: 0; transform: scale(1.5); } }
+      @media (prefers-reduced-motion: reduce) {
+        .grid-drift, .network, .cursor, .ring-a, .ring-b { animation: none; }
+      }
+    </style>
   </defs>
-  <rect width="1280" height="360" rx="18" fill="#0d1117"/>
-  <rect width="1280" height="360" rx="18" fill="url(#grid)" opacity="0.86"/>
-  <g fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.24">
-    <path d="M800 64 L930 132 L1070 80 L1202 165"/>
-    <path d="M850 286 L1000 220 L1134 280 L1240 220"/>
+
+  <rect width="1280" height="380" rx="20" fill="#0d1117"/>
+  <rect class="grid-drift" x="-56" y="-56" width="1392" height="492" rx="20" fill="url(#grid)" opacity="0.90"/>
+  <ellipse cx="1060" cy="194" rx="330" ry="245" fill="url(#glow)">
+    <animate attributeName="cx" values="1000;1115;1000" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.34">
+    <path id="topPath" class="network" d="M760 64C845 20 910 128 990 92S1128 37 1234 116"/>
+    <path id="middlePath" class="network reverse" d="M805 218C892 139 956 270 1044 199S1172 126 1258 206"/>
+    <path id="bottomPath" class="network" d="M748 324C836 265 934 347 1020 291S1172 251 1264 320"/>
   </g>
-  <g fill="#60a5fa" opacity="0.45">
-    <circle cx="800" cy="64" r="5"/><circle cx="930" cy="132" r="5"/><circle cx="1070" cy="80" r="5"/><circle cx="1202" cy="165" r="5"/>
-    <circle cx="850" cy="286" r="5"/><circle cx="1000" cy="220" r="5"/><circle cx="1134" cy="280" r="5"/><circle cx="1240" cy="220" r="5"/>
+  <g fill="#60a5fa" filter="url(#softGlow)">
+    <circle r="4"><animateMotion dur="4.8s" repeatCount="indefinite"><mpath href="#topPath"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="6.2s" begin="-2.1s" repeatCount="indefinite"><mpath href="#middlePath"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="5.4s" begin="-3.3s" repeatCount="indefinite"><mpath href="#bottomPath"/></animateMotion></circle>
   </g>
-  <rect x="0" y="0" width="1280" height="360" rx="18" fill="url(#fade)"/>
+
+  <g fill="none" stroke="#60a5fa" stroke-width="1.5">
+    <circle class="ring-a" cx="1110" cy="196" r="32"/>
+    <circle class="ring-b" cx="1110" cy="196" r="32"/>
+  </g>
+  <circle cx="1110" cy="196" r="6" fill="#60a5fa" opacity="0.86"/>
+  <rect width="1280" height="380" rx="20" fill="url(#fade)"/>
+
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="74" y="74" fill="#60a5fa" font-size="23" letter-spacing="4">&gt; YIXUAN_HE / ADAM</text>
-    <text x="74" y="174" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="750" letter-spacing="-3">AI SOLUTIONS BUILDER</text>
-    <text x="78" y="224" fill="#a7b0bd" font-size="24" letter-spacing="1">SYSTEMS THINKER · DATA SCIENTIST · PRODUCT SHIPPER</text>
-    <text x="78" y="302" fill="#e5e7eb" font-size="18">BUSINESS PROBLEM</text>
-    <text x="268" y="302" fill="#60a5fa" font-size="18">-&gt;</text>
-    <text x="312" y="302" fill="#e5e7eb" font-size="18">TECHNICAL SYSTEM</text>
-    <text x="522" y="302" fill="#60a5fa" font-size="18">-&gt;</text>
-    <text x="566" y="302" fill="#e5e7eb" font-size="18">PRODUCTION IMPACT</text>
+    <text x="72" y="66" fill="#60a5fa" font-size="22" letter-spacing="4">&gt; YIXUAN_HE / ADAM</text>
+    <rect class="cursor" x="348" y="44" width="10" height="26" rx="2" fill="#60a5fa"/>
+
+    <text x="70" y="171" fill="url(#titleGradient)" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="750" letter-spacing="-1.5">AI SOLUTIONS BUILDER</text>
+    <text x="74" y="220" fill="#a7b0bd" font-size="20" letter-spacing="1">SYSTEMS THINKER · DATA SCIENTIST · PRODUCT SHIPPER</text>
+
+    <g font-size="17" letter-spacing=".7">
+      <text x="74" y="309" fill="#e5e7eb">BUSINESS PROBLEM</text>
+      <path d="M247 303H294" stroke="#60a5fa" stroke-width="2"/>
+      <circle r="3.5" fill="#60a5fa"><animateMotion dur="1.8s" repeatCount="indefinite" path="M247 303H294"/></circle>
+      <text x="313" y="309" fill="#e5e7eb">TECHNICAL SYSTEM</text>
+      <path d="M494 303H541" stroke="#60a5fa" stroke-width="2"/>
+      <circle r="3.5" fill="#60a5fa"><animateMotion dur="1.8s" begin="-.6s" repeatCount="indefinite" path="M494 303H541"/></circle>
+      <text x="560" y="309" fill="#e5e7eb">PRODUCTION IMPACT</text>
+    </g>
+    <text x="74" y="348" fill="#78869a" font-size="13" letter-spacing="2.2">DESIGN → BUILD → SHIP → LEARN</text>
   </g>
-  <rect x="1" y="1" width="1278" height="358" rx="17" fill="none" stroke="#2d3748" stroke-width="2"/>
+
+  <rect x="1" y="1" width="1278" height="378" rx="19" fill="none" stroke="#2d3748" stroke-width="2"/>
 </svg>
