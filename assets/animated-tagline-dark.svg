@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-labelledby="title desc">
+  <title id="title">What Yixuan is building</title>
+  <desc id="desc">Four engineering taglines rotate with a type-on animation.</desc>
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#60a5fa" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .line { opacity: 0; clip-path: inset(0 100% 0 0); }
+      .line-1 { animation: type-1 16s linear infinite; }
+      .line-2 { animation: type-2 16s linear infinite; }
+      .line-3 { animation: type-3 16s linear infinite; }
+      .line-4 { animation: type-4 16s linear infinite; }
+      .caret { animation: blink .8s steps(2, end) infinite; }
+      .dot { animation: pulse 1.8s ease-in-out infinite; transform-origin: 29px 32px; }
+      @keyframes type-1 { 0% { opacity:1;clip-path:inset(0 100% 0 0) } 6%,19% { opacity:1;clip-path:inset(0) } 23% { opacity:1;clip-path:inset(0 0 0 100%) } 24.9%,100% { opacity:0 } }
+      @keyframes type-2 { 0%,24.9% { opacity:0 } 25% { opacity:1;clip-path:inset(0 100% 0 0) } 31%,44% { opacity:1;clip-path:inset(0) } 48% { opacity:1;clip-path:inset(0 0 0 100%) } 49.9%,100% { opacity:0 } }
+      @keyframes type-3 { 0%,49.9% { opacity:0 } 50% { opacity:1;clip-path:inset(0 100% 0 0) } 56%,69% { opacity:1;clip-path:inset(0) } 73% { opacity:1;clip-path:inset(0 0 0 100%) } 74.9%,100% { opacity:0 } }
+      @keyframes type-4 { 0%,74.9% { opacity:0 } 75% { opacity:1;clip-path:inset(0 100% 0 0) } 81%,94% { opacity:1;clip-path:inset(0) } 98% { opacity:1;clip-path:inset(0 0 0 100%) } 100% { opacity:0 } }
+      @keyframes blink { 0%,48% { opacity:1 } 49%,100% { opacity:0 } }
+      @keyframes pulse { 0%,100% { opacity:.45;transform:scale(.8) } 50% { opacity:1;transform:scale(1.25) } }
+      @media (prefers-reduced-motion: reduce) {
+        .line { animation:none;opacity:0; }
+        .line-1 { opacity:1;clip-path:none; }
+        .caret,.dot { animation:none; }
+      }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="62" rx="14" fill="#0d1117" stroke="#2d3748"/>
+  <path d="M92 55H963" stroke="url(#rail)"/>
+  <circle class="dot" cx="29" cy="32" r="5" fill="#60a5fa"/>
+  <text x="48" y="38" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">❯</text>
+  <g fill="#e5e7eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+    <text class="line line-1" x="77" y="38">Enterprise AI systems that survive the demo<tspan class="caret"> ▌</tspan></text>
+    <text class="line line-2" x="77" y="38">LLM workflows from problem framing to production<tspan class="caret"> ▌</tspan></text>
+    <text class="line line-3" x="77" y="38">Data products that turn complexity into decisions<tspan class="caret"> ▌</tspan></text>
+    <text class="line line-4" x="77" y="38">Useful things at the intersection of AI × systems<tspan class="caret"> ▌</tspan></text>
+  </g>
+</svg>
