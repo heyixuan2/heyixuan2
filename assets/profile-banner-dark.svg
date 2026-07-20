@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Yixuan He - AI Solutions Builder and Systems Thinker</title>
+  <desc id="desc">A dark technical grid banner with blue accents.</desc>
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#243244" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="0.65" stop-color="#0d1117" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="18" fill="#0d1117"/>
+  <rect width="1280" height="360" rx="18" fill="url(#grid)" opacity="0.86"/>
+  <g fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.24">
+    <path d="M800 64 L930 132 L1070 80 L1202 165"/>
+    <path d="M850 286 L1000 220 L1134 280 L1240 220"/>
+  </g>
+  <g fill="#60a5fa" opacity="0.45">
+    <circle cx="800" cy="64" r="5"/><circle cx="930" cy="132" r="5"/><circle cx="1070" cy="80" r="5"/><circle cx="1202" cy="165" r="5"/>
+    <circle cx="850" cy="286" r="5"/><circle cx="1000" cy="220" r="5"/><circle cx="1134" cy="280" r="5"/><circle cx="1240" cy="220" r="5"/>
+  </g>
+  <rect x="0" y="0" width="1280" height="360" rx="18" fill="url(#fade)"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="74" y="74" fill="#60a5fa" font-size="23" letter-spacing="4">&gt; YIXUAN_HE / ADAM</text>
+    <text x="74" y="174" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="750" letter-spacing="-3">AI SOLUTIONS BUILDER</text>
+    <text x="78" y="224" fill="#a7b0bd" font-size="24" letter-spacing="1">SYSTEMS THINKER · DATA SCIENTIST · PRODUCT SHIPPER</text>
+    <text x="78" y="302" fill="#e5e7eb" font-size="18">BUSINESS PROBLEM</text>
+    <text x="268" y="302" fill="#60a5fa" font-size="18">-&gt;</text>
+    <text x="312" y="302" fill="#e5e7eb" font-size="18">TECHNICAL SYSTEM</text>
+    <text x="522" y="302" fill="#60a5fa" font-size="18">-&gt;</text>
+    <text x="566" y="302" fill="#e5e7eb" font-size="18">PRODUCTION IMPACT</text>
+  </g>
+  <rect x="1" y="1" width="1278" height="358" rx="17" fill="none" stroke="#2d3748" stroke-width="2"/>
+</svg>
