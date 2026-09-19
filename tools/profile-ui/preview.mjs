@@ -44,7 +44,7 @@ http.createServer((req,res)=>{
   if(reduce){
     body=body.replaceAll('(prefers-reduced-motion: reduce)','(min-width: 0px)').replace(/(\/assets\/ui\/[^" ]+\.svg)/g,'$1?motion=reduce');
   }
-  if(narrow)body=body.replaceAll('(max-width: 1100px)','(min-width: 0px)');
+  if(narrow)body=body.replaceAll('(max-width: 1100px)','(min-width: 0px)').replaceAll('(orientation: portrait)','(min-width: 0px)');
   const qs=`&narrow=${narrow?1:0}&motion=${reduce?'reduce':'full'}`;
   res.setHeader('Content-Type','text/html; charset=utf-8');
   res.end(`<!doctype html><html lang="en" data-theme="${theme}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yixuan He — Animated Profile UI Preview</title><style>${css}</style></head><body class="${narrow?'narrow':''}"><header class="preview-tools"><span>Local Preview · GitHub-Sanitized Markdown · Not Published</span><nav><a href="/?theme=${theme==='dark'?'light':'dark'}${qs}">Switch Theme</a><a href="/?theme=${theme}&narrow=${narrow?0:1}&motion=${reduce?'reduce':'full'}">${narrow?'Desktop':'Mobile'} Width</a><a href="/?theme=${theme}&narrow=${narrow?1:0}&motion=${reduce?'full':'reduce'}">${reduce?'Play Motion':'Reduce Motion'}</a></nav></header><main class="readme"><div class="file-label">heyixuan2 / README.md</div><article class="markdown-body">${body}</article></main></body></html>`);

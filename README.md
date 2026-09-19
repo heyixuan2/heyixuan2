@@ -81,17 +81,17 @@ Systems thinking, from the model to the last mile.
 
 <!-- generated from the unauthenticated public calendar; never from private repository details -->
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 1100px)" srcset="./assets/contributions-dark-mobile-static.svg">
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 1100px)" srcset="./assets/contributions-light-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-dark-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-light-mobile-static.svg">
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/contributions-dark-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-light-static.svg">
-  <source media="(prefers-color-scheme: dark) and (max-width: 1100px)" srcset="./assets/contributions-dark-mobile.svg">
-  <source media="(max-width: 1100px)" srcset="./assets/contributions-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-dark-mobile.svg">
+  <source media="(max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
-  <img alt="A year in motion: Yixuan's real GitHub contribution calendar, with daily activity in orange and weekly totals below. Source dates and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
+  <img alt="A Year in Motion: Yixuan's real GitHub contribution calendar as an oblique field of glass cuboids. Each day is one column; orange tint and height follow GitHub activity levels. Clear low bases mean zero activity. Source dates, total, and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
 </picture>
 
-<sub>Our own view of the public GitHub calendar. Daily squares, weekly totals, no invented activity. Contribution counts are not a measure of impact.</sub>
+<sub>One glass column per day. Tint and height follow GitHub's activity levels; clear bases mark zero activity. Refreshed daily from the public calendar. Contribution counts are not a measure of impact.</sub>
 
 <br>
 
