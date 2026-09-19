@@ -12,8 +12,9 @@ node --test tools/profile-ui/generate.test.mjs
 node tools/profile-ui/preview.mjs
 ```
 
-The generator has no dependencies or network calls. It writes 22 desktop SVGs
-and six compact project/notes variants to `assets/ui/`. Each file contains its
+The generator has no dependencies or network calls. It writes 22 desktop SVGs,
+six compact project/notes variants and 12 full-width navigation variants to
+`assets/ui/`. Each file contains its
 own CSS animation and respects `prefers-reduced-motion`. The README selects
 dark/light and compact sources with `picture`; there are no visible theme links.
 
@@ -30,6 +31,9 @@ No hover effects or client scripts are required by the published README.
   expansion state and keyboard behavior.
 - Small-screen project titles use larger, multiline lettering. Notes use a
   shorter visual label with the full accessible name preserved.
+- The top three CTAs use equal percentage widths with no inline whitespace.
+  Their equal-width cards include internal gutters so the outer edges align
+  with the full-width artwork. Compact navigation remains three equal columns.
 - No third-party counters, fonts, image services, JavaScript or tracking URLs.
 - Animation is decorative, never a fake click, status, progress or loading state.
 

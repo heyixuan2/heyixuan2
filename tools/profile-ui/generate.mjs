@@ -92,6 +92,31 @@ ${notes?`<g transform="translate(12 11)">${icon('notes',p)}</g><text x="50" y="3
 </svg>\n`;
 }
 
+// Equal 1/3-width image slots, with gutters inside the artwork rather than
+// whitespace between inline links. All visible cards have the same width;
+// the first and last cards meet the README content edges exactly.
+export function renderNavigation(id, theme, compact = false) {
+  const c=controls.find(c=>c.id===id && c.primary);
+  if (!c || !themes[theme]) throw new Error('Unknown navigation control or theme');
+  const index=['portfolio','builds','linkedin'].indexOf(id);
+  const slot=compact?180:288;
+  const card=slot-4;
+  const h=compact?108:76;
+  const inset=index*2;
+  let artwork;
+  if (!compact) {
+    artwork=renderControl({...c,width:card},theme).replace('<svg xmlns=',`<svg x="${inset}" xmlns=`);
+  } else {
+    const p=themes[theme];
+    const label=id==='builds'?'Explore Builds':c.label;
+    artwork=`<g transform="translate(${inset} 0)"><rect x=".5" y=".5" width="${card-1}" height="${h-1}" rx="2" fill="${p.bg}" stroke="${p.line}"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:${p.ink};letter-spacing:-.5px}.orbit{transform-origin:14px 14px}.trace{stroke-dasharray:90}@media(prefers-reduced-motion:no-preference){.orbit{animation:orbit 9s linear infinite}.trace{animation:trace 5.6s ease-in-out infinite}.rule{animation:rule 5.6s ease-in-out infinite}.layer-one{animation:layer1 5s ease-in-out infinite}.layer-two{animation:layer2 5s ease-in-out infinite}}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes trace{0%,100%{stroke-dashoffset:0}40%{stroke-dashoffset:90}75%{stroke-dashoffset:0}}@keyframes rule{0%,100%{transform:translateX(0)}50%{transform:translateX(104px)}}@keyframes layer1{0%,100%{transform:translateY(0)}45%{transform:translateY(-3px)}}@keyframes layer2{0%,100%{transform:translateY(0)}55%{transform:translateY(-4px)}}</style>
+<g transform="translate(15 17)">${icon(c.icon,p)}</g><path d="${c.down?'M148 21v15m-5-5 5 5 5-5':'M139 35l12-12m-9 0h9v9'}" fill="none" stroke="${p.ink}" stroke-width="1.8"/>
+<text x="15" y="78" font-size="${id==='builds'?22:27}">${label}</text><path d="M15 103h146" stroke="${p.line}"/><path class="rule" d="M15 103h36" stroke="${p.accent}" stroke-width="2"/></g>`;
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${slot}" height="${h}" viewBox="0 0 ${slot} ${h}" role="img" aria-labelledby="nav-title"><title id="nav-title">${c.label}</title>${artwork}</svg>\n`;
+}
+
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
   const out = fileURLToPath(new URL('../../assets/ui/', import.meta.url));
   await mkdir(out, { recursive: true });
@@ -101,5 +126,8 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.a
   for (const id of ['bambu','ashare','notes']) for (const theme of Object.keys(themes)) {
     await writeFile(path.join(out, `${id}-${theme}-mobile.svg`), renderCompact(id, theme));
   }
-  console.log(`Generated ${controls.length * 2 + 6} self-contained SVG controls.`);
+  for (const id of ['portfolio','builds','linkedin']) for (const theme of Object.keys(themes)) for (const compact of [false,true]) {
+    await writeFile(path.join(out, `nav-${id}-${theme}${compact?'-mobile':''}.svg`), renderNavigation(id, theme, compact));
+  }
+  console.log(`Generated ${controls.length * 2 + 18} self-contained SVG controls.`);
 }

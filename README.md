@@ -11,9 +11,9 @@ I turn ambiguous business ideas into **working AI products** — connecting the 
 A **forward-deployed mindset**: get close to the work, build the first useful version quickly, and keep going beyond the demo. Fast to first value; thoughtful about reliability, access, and the human workflow.
 
 <p>
-  <a href="https://www.yixuanhe.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/portfolio-dark.svg"><img src="./assets/ui/portfolio-light.svg" alt="Portfolio" width="232" height="76"></picture></a>
-  <a href="#selected-public-builds"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/builds-dark.svg"><img src="./assets/ui/builds-light.svg" alt="Explore the Builds" width="264" height="76"></picture></a>
-  <a href="https://www.linkedin.com/in/yixuanhe2/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/linkedin-dark.svg"><img src="./assets/ui/linkedin-light.svg" alt="LinkedIn" width="232" height="76"></picture></a>
+  <a href="https://www.yixuanhe.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-portfolio-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-portfolio-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-portfolio-dark.svg"><img src="./assets/ui/nav-portfolio-light.svg" alt="Portfolio" width="33.333333%"></picture></a><!--
+  --><a href="#selected-public-builds"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-builds-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-builds-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-builds-dark.svg"><img src="./assets/ui/nav-builds-light.svg" alt="Explore the Builds" width="33.333333%"></picture></a><!--
+  --><a href="https://www.linkedin.com/in/yixuanhe2/"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-linkedin-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-linkedin-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-linkedin-dark.svg"><img src="./assets/ui/nav-linkedin-light.svg" alt="LinkedIn" width="33.333333%"></picture></a>
 </p>
 
 <picture>
