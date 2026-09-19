@@ -1,0 +1,13 @@
+{
+  "name": "field-notes-hero-motion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "HYPERFRAMES_NO_TELEMETRY=1 npx --yes hyperframes@0.8.50 check",
+    "snapshot": "HYPERFRAMES_NO_TELEMETRY=1 npx --yes hyperframes@0.8.50 snapshot",
+    "check:dark": "HYPERFRAMES_NO_TELEMETRY=1 npx --yes hyperframes@0.8.50 check dark",
+    "verify:delivery": "node verify-delivery.mjs",
+    "render:light": "HYPERFRAMES_NO_TELEMETRY=1 npx --yes hyperframes@0.8.50 render . --format gif --fps 15 --gif-loop 0 --quality delivery --output ../../../assets/field-notes-hero-light.gif",
+    "render:dark": "HYPERFRAMES_NO_TELEMETRY=1 npx --yes hyperframes@0.8.50 render dark --format gif --fps 15 --gif-loop 0 --quality delivery --output ../../../assets/field-notes-hero-dark.gif"
+  }
+}
