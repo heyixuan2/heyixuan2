@@ -58,14 +58,10 @@ Different domains. The same habit: connect intelligence to something people can 
           <img src="./assets/field-notes-print-light.jpg" alt="Concept illustration: a lattice cube on a drafting desk, representing the path from an idea to a printed object." width="100%">
         </picture>
       </a>
-      <h3><a href="https://github.com/heyixuan2/bambu-studio-ai"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/bambu-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/bambu-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/bambu-dark.svg"><img src="./assets/ui/bambu-light.svg" alt="Bambu Studio AI" width="380" height="88"></picture></a></h3>
+      <h3><a href="https://github.com/heyixuan2/bambu-studio-ai"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/bambu-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/bambu-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/bambu-dark.svg"><img src="./assets/ui/bambu-light.svg" alt="Bambu Studio AI" width="100%"></picture></a></h3>
       <p>An end-to-end AI workflow for Bambu Lab 3D printers.</p>
-      <details>
-        <summary><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/notes-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/notes-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/notes-dark.svg"><img src="./assets/ui/notes-light.svg" alt="Engineering Notes" width="280" height="48"></picture></summary>
-        <p><strong>From an Idea to a Physical Object.</strong> Search, generate, analyze, repair, and preview in one workflow. Review and start the print in Bambu Studio; the agent monitors it read-only.</p>
-        <p>Bringing the reasoning layer and the physical toolchain into one usable system.</p>
-        <p><a href="https://github.com/heyixuan2/bambu-studio-ai#readme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/project-dark.svg"><img src="./assets/ui/project-light.svg" alt="Explore Project" width="216" height="48"></picture></a></p>
-      </details>
+      <p><strong>From an Idea to a Physical Object.</strong> Search, generate, analyze, repair, and preview in one workflow. Review and start the print in Bambu Studio; the agent monitors it read-only.</p>
+      <p>Bringing the reasoning layer and the physical toolchain into one usable system.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/heyixuan2/ashare-neural-network">
@@ -75,60 +71,16 @@ Different domains. The same habit: connect intelligence to something people can 
           <img src="./assets/field-notes-signal-light.jpg" alt="Concept illustration: time-series traces on research paper. This is artwork, not a performance chart." width="100%">
         </picture>
       </a>
-      <h3><a href="https://github.com/heyixuan2/ashare-neural-network"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/ashare-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/ashare-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/ashare-dark.svg"><img src="./assets/ui/ashare-light.svg" alt="A-Share Neural Network" width="380" height="88"></picture></a></h3>
+      <h3><a href="https://github.com/heyixuan2/ashare-neural-network"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/ashare-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/ashare-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/ashare-dark.svg"><img src="./assets/ui/ashare-light.svg" alt="A-Share Neural Network" width="100%"></picture></a></h3>
       <p>Hybrid LSTM–Transformer research for A-share forecasting.</p>
-      <details>
-        <summary><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/notes-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/notes-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/notes-dark.svg"><img src="./assets/ui/notes-light.svg" alt="Engineering Notes" width="280" height="48"></picture></summary>
-        <p><strong>Finding Signal in Financial Time Series.</strong> A hybrid architecture with 49-dimensional features, temporal splitting, and ensemble training.</p>
-        <p>A modeling and evaluation project, not a claim of investment performance.</p>
-        <p><a href="https://github.com/heyixuan2/ashare-neural-network#readme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/project-dark.svg"><img src="./assets/ui/project-light.svg" alt="Explore Project" width="216" height="48"></picture></a></p>
-      </details>
+      <p><strong>Finding Signal in Financial Time Series.</strong> A hybrid architecture with 49-dimensional features, temporal splitting, and ensemble training.</p>
+      <p>A modeling and evaluation project, not a claim of investment performance.</p>
     </td>
   </tr>
 </table>
 
 **Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**<br>
 Systems thinking, from the model to the last mile.
-
-<details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/about-dark.svg"><img src="./assets/ui/about-light.svg" alt="About the Builder" width="300" height="54"></picture></summary>
-
-- Building enterprise AI solutions at **Mercedes-Benz**.
-- M.S. candidate in **Data Science & Analytics (AI)** at Georgetown University.
-- M.Eng. in **Systems Engineering** from Cornell University.
-- Native/bilingual in **Mandarin and English**.
-
-### Beyond the Demo
-
-- Designed an enterprise AI application that diagnoses business processes and generates AI-native redesign roadmaps using an original automation-potential scoring framework.
-- Re-engineered an LLM resume-screening prototype into a standalone, Dockerized application that cleared enterprise IT review for pilot testing.
-- Built executive and operational Power BI systems across Mercedes-Benz China and led a data enablement program for **140+ employees**, driving **80%+ adoption**.
-
-</details>
-
-<details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/principles-dark.svg"><img src="./assets/ui/principles-light.svg" alt="How I Work" width="300" height="54"></picture></summary>
-
-1. **Start with the Decision, Not the Model.** Technology matters only when it changes an outcome.
-2. **Design the Whole System.** Data, interfaces, deployment, users, and incentives belong in the same architecture.
-3. **Ship Usable Artifacts.** A working product beats an impressive prototype that never leaves the demo.
-4. **Make Complexity Legible.** Good systems help technical and business teams reason together.
-
-</details>
-
-<details>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/toolbox-dark.svg"><img src="./assets/ui/toolbox-light.svg" alt="Open the Toolbox" width="300" height="54"></picture></summary>
-
-| Discipline | Tools & Approaches |
-| :--- | :--- |
-| AI Systems | LLM workflows · RAG · AI agents · Dify · Transformers · Deep learning |
-| Engineering | Python · R · SQL · PostgreSQL · MongoDB · Data modeling |
-| Delivery | Docker · AWS EC2 · Vercel · Cloudflare · Tencent Cloud · Tailscale |
-| Decisions | Power BI · Tableau · Excel · Experimentation · Executive analytics |
-| Automation | Power Apps · Power Automate · Microsoft 365 |
-| Design | Figma · Photoshop · Illustrator · Premiere Pro · Final Cut Pro |
-
-</details>
 
 ## Building, One Day at a Time.
 

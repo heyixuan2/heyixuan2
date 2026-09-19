@@ -33,9 +33,32 @@ test('README removes auxiliary links and uses designed controls for every text C
   assert.ok(md.includes('## From Idea to MVP. Built for Enterprise Realities.'));
   assert.ok(md.includes('## Selected Public Builds'));
   assert.ok(md.includes('href="#selected-public-builds"'));
-  for(const c of controls) assert.ok(md.includes(`./assets/ui/${['portfolio','builds','linkedin'].includes(c.id)?'nav-':''}${c.id}-light.svg`),c.id);
-  assert.equal((md.match(/<details>/g)||[]).length,6);
-  assert.equal((md.match(/<summary>/g)||[]).length,6);
+  for(const c of controls.filter(c=>['portfolio','builds','linkedin','bambu','ashare','discovery'].includes(c.id))) assert.ok(md.includes(`./assets/ui/${['portfolio','builds','linkedin'].includes(c.id)?'nav-':''}${c.id}-light.svg`),c.id);
+  assert.equal((md.match(/<details>/g)||[]).length,1);
+  assert.equal((md.match(/<summary>/g)||[]).length,1);
+});
+
+test('project descriptions are always visible and linked title cards match artwork width', () => {
+  const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
+  const table=md.match(/<table>[\s\S]*?<\/table>/)[0];
+  assert.ok(!/<details|<summary|Engineering Notes|Explore Project/.test(table));
+  assert.ok(table.includes('<strong>From an Idea to a Physical Object.</strong>'));
+  assert.ok(table.includes('<strong>Finding Signal in Financial Time Series.</strong>'));
+  assert.equal((table.match(/<img[^>]*width="100%"/g)||[]).length,4);
+  assert.ok(!/<img[^>]*height=/.test(table));
+  for(const [repo,label] of [['bambu-studio-ai','Bambu Studio AI'],['ashare-neural-network','A-Share Neural Network']]) {
+    assert.ok(table.includes(`<h3><a href="https://github.com/heyixuan2/${repo}">`));
+    assert.ok(table.includes(`alt="${label}" width="100%"`));
+  }
+});
+
+test('background credentials remain without the deferred personal sections', () => {
+  const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
+  assert.ok(md.includes('**Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**'));
+  assert.ok(!/About the Builder|How I Work|Open the Toolbox|Beyond the Demo/.test(md));
+  assert.ok(!/assets\/ui\/(?:about|principles|toolbox)-/.test(md));
+  const afterCredentials=md.slice(md.indexOf('**Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**'));
+  assert.match(afterCredentials,/^\*\*Mercedes-Benz · Georgetown DSAN · Cornell M\.Eng\.\*\*<br>\nSystems thinking, from the model to the last mile\.\n\n## Building, One Day at a Time\./);
 });
 
 test('footer closes with artwork without repeating primary links', () => {
