@@ -56,7 +56,7 @@ export function renderCalendar(data, theme = 'light', mobile = false, animated =
   parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc"><title id="title">Yixuan He — ${integer.format(data.total)} contributions</title><desc id="desc">Publicly visible GitHub calendar, ${data.from} to ${data.to}. One square per day; orange intensity follows GitHub activity levels. Weekly bars show summed contributions. Activity is not a measure of impact. ${animated ? 'Weeks reveal chronologically once, then hold. Reduced motion shows the final state.' : 'Static edition.'}</desc>`);
   parts.push(`<style>text{font-family:Arial,Helvetica,sans-serif;fill:${p.fg};font-size:${font}px} .muted{fill:${p.muted}} .mono{font-family:Menlo,Consolas,monospace} .week{opacity:1}${animated ? '@media(prefers-reduced-motion:no-preference){.week{animation:reveal .7s ease-out both;animation-delay:var(--delay)}}@keyframes reveal{from{opacity:.18}to{opacity:1}}' : ''}</style><rect width="100%" height="100%" fill="${p.bg}"/>`);
   text(pad, 33, 'FIELD NOTES / ACTIVITY', `class="mono muted" font-size="${mobile ? 13 : 11}" letter-spacing="1.8"`);
-  text(pad, mobile ? 80 : 80, 'A year in motion.', `style="font-size:${mobile ? 32 : 34}px;font-weight:700;letter-spacing:-1px"`);
+  text(pad, mobile ? 80 : 80, 'A Year in Motion.', `style="font-size:${mobile ? 32 : 34}px;font-weight:700;letter-spacing:-1px"`);
   if (mobile) {
     text(pad, 125, integer.format(data.total), 'style="font-size:32px;font-weight:700;letter-spacing:-1px"');
     text(137, 124, 'contributions', 'class="muted"');

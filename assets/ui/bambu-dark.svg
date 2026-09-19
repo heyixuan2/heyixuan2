@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="88" viewBox="0 0 380 88" role="img" aria-labelledby="title desc">
+<title id="title">Bambu Studio AI</title><desc id="desc">Open Bambu Studio AI. Orange editorial linework animates; text remains still. Motion follows your system preference.</desc>
+<defs><clipPath id="frame"><rect x=".5" y=".5" width="379" height="87" rx="2"/></clipPath><linearGradient id="wash"><stop stop-color="#332820" stop-opacity="0"/><stop offset=".5" stop-color="#332820" stop-opacity=".7"/><stop offset="1" stop-color="#332820" stop-opacity="0"/></linearGradient></defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#f3efe6}.label{font-weight:900;letter-spacing:-.65px}.note{font-family:Menlo,Consolas,monospace;fill:#bcb3a7;letter-spacing:.65px;font-size:8.5px}.orbit{transform-origin:14px 14px}.travel{transform:translateX(-460px)}
+@media(prefers-reduced-motion:no-preference){
+.travel{animation:travel 5.6s cubic-bezier(.4,0,.2,1) infinite}.arrow{animation:arrow 4.8s ease-in-out infinite}.down{animation:down 4.8s ease-in-out infinite}.orbit{animation:orbit 9s linear infinite}.trace{stroke-dasharray:90;animation:trace 5.6s ease-in-out infinite}.beacon{animation:beacon 4.2s ease-in-out infinite}.layer-one{animation:layer1 5s ease-in-out infinite}.layer-two{animation:layer2 5s ease-in-out infinite}
+}
+@keyframes travel{0%,12%{transform:translateX(-460px)}65%,100%{transform:translateX(460px)}}
+@keyframes arrow{0%,40%,100%{transform:translate(0,0)}54%{transform:translate(3px,-3px)}68%{transform:translate(0,0)}}
+@keyframes down{0%,40%,100%{transform:translateY(0)}54%{transform:translateY(4px)}68%{transform:translateY(0)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes trace{0%,12%,100%{stroke-dashoffset:0;opacity:1}40%{stroke-dashoffset:90;opacity:.3}75%{stroke-dashoffset:0;opacity:1}}
+@keyframes beacon{0%,30%,100%{opacity:1}50%{opacity:.35}70%{opacity:1}}
+@keyframes layer1{0%,20%,80%,100%{transform:translateY(0)}45%{transform:translateY(-3px)}}
+@keyframes layer2{0%,30%,90%,100%{transform:translateY(0)}55%{transform:translateY(-4px)}}
+</style>
+<g clip-path="url(#frame)"><rect width="380" height="88" fill="#191a1b"/><rect class="travel" x="140" width="100" height="88" fill="url(#wash)"/><path d="M18 84H362" stroke="#41403c"/><path d="M18 84h44" stroke="#ff7b43" stroke-width="2"/><path class="travel" d="M146 84h88" stroke="#ff7b43" stroke-width="2"/>
+<text class="note" x="18" y="24">01 / Physical Intelligence</text>
+<text class="label" x="18" y="59" font-size="25">Bambu Studio AI</text>
+<g transform="translate(332 31)"><g fill="none" stroke="#ff7b43" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l11 6v13l-11 6-11-6V8zM3 8l11 6 11-6M14 14v13"/><path class="trace" d="M3 8l11-6 11 6v13l-11 6" stroke-width="3"/></g></g>
+
+</g><rect x=".5" y=".5" width="379" height="87" rx="2" fill="none" stroke="#41403c"/>
+</svg>

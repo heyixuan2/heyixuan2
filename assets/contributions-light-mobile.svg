@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="626" viewBox="0 0 400 626" role="img" aria-labelledby="title desc"><title id="title">Yixuan He — 5,689 contributions</title><desc id="desc">Publicly visible GitHub calendar, 2025-09-14 to 2026-09-19. One square per day; orange intensity follows GitHub activity levels. Weekly bars show summed contributions. Activity is not a measure of impact. Weeks reveal chronologically once, then hold. Reduced motion shows the final state.</desc>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#171717;font-size:15px} .muted{fill:#615d56} .mono{font-family:Menlo,Consolas,monospace} .week{opacity:1}@media(prefers-reduced-motion:no-preference){.week{animation:reveal .7s ease-out both;animation-delay:var(--delay)}}@keyframes reveal{from{opacity:.18}to{opacity:1}}</style><rect width="100%" height="100%" fill="#f5f2ea"/>
 <text x="26" y="33" class="mono muted" font-size="13" letter-spacing="1.8">FIELD NOTES / ACTIVITY</text>
-<text x="26" y="80" style="font-size:32px;font-weight:700;letter-spacing:-1px">A year in motion.</text>
+<text x="26" y="80" style="font-size:32px;font-weight:700;letter-spacing:-1px">A Year in Motion.</text>
 <text x="26" y="125" style="font-size:32px;font-weight:700;letter-spacing:-1px">5,689</text>
 <text x="137" y="124" class="muted">contributions</text>
 <text x="26" y="153" class="muted" style="font-size:14px">Sep 14, 2025 — Sep 19, 2026</text>

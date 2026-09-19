@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="76" viewBox="0 0 232 76" role="img" aria-labelledby="title desc">
+<title id="title">Portfolio</title><desc id="desc">Open Portfolio. Orange editorial linework animates; text remains still. Motion follows your system preference.</desc>
+<defs><clipPath id="frame"><rect x=".5" y=".5" width="231" height="75" rx="2"/></clipPath><linearGradient id="wash"><stop stop-color="#fffaf2" stop-opacity="0"/><stop offset=".5" stop-color="#fffaf2" stop-opacity=".7"/><stop offset="1" stop-color="#fffaf2" stop-opacity="0"/></linearGradient></defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#171717}.label{font-weight:900;letter-spacing:-.65px}.note{font-family:Menlo,Consolas,monospace;fill:#696157;letter-spacing:.65px;font-size:8.5px}.orbit{transform-origin:14px 14px}.travel{transform:translateX(-312px)}
+@media(prefers-reduced-motion:no-preference){
+.travel{animation:travel 5.6s cubic-bezier(.4,0,.2,1) infinite}.arrow{animation:arrow 4.8s ease-in-out infinite}.down{animation:down 4.8s ease-in-out infinite}.orbit{animation:orbit 9s linear infinite}.trace{stroke-dasharray:90;animation:trace 5.6s ease-in-out infinite}.beacon{animation:beacon 4.2s ease-in-out infinite}.layer-one{animation:layer1 5s ease-in-out infinite}.layer-two{animation:layer2 5s ease-in-out infinite}
+}
+@keyframes travel{0%,12%{transform:translateX(-312px)}65%,100%{transform:translateX(312px)}}
+@keyframes arrow{0%,40%,100%{transform:translate(0,0)}54%{transform:translate(3px,-3px)}68%{transform:translate(0,0)}}
+@keyframes down{0%,40%,100%{transform:translateY(0)}54%{transform:translateY(4px)}68%{transform:translateY(0)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes trace{0%,12%,100%{stroke-dashoffset:0;opacity:1}40%{stroke-dashoffset:90;opacity:.3}75%{stroke-dashoffset:0;opacity:1}}
+@keyframes beacon{0%,30%,100%{opacity:1}50%{opacity:.35}70%{opacity:1}}
+@keyframes layer1{0%,20%,80%,100%{transform:translateY(0)}45%{transform:translateY(-3px)}}
+@keyframes layer2{0%,30%,90%,100%{transform:translateY(0)}55%{transform:translateY(-4px)}}
+</style>
+<g clip-path="url(#frame)"><rect width="232" height="76" fill="#f5f2ea"/><rect class="travel" x="66" width="100" height="76" fill="url(#wash)"/><path d="M18 72H214" stroke="#dbd5ca"/><path d="M18 72h26" stroke="#ef5a24" stroke-width="2"/><path class="travel" d="M72 72h88" stroke="#ef5a24" stroke-width="2"/>
+<text class="note" x="59" y="26">Selected Work</text>
+<text class="label" x="59" y="46" font-size="19">Portfolio</text>
+<g transform="translate(18 24)"><g fill="none" stroke="#ef5a24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="10"/><path d="M4 14h20M14 4c-6 7-6 13 0 20M14 4c6 7 6 13 0 20" opacity=".45"/><g class="orbit"><circle cx="14" cy="4" r="2.4" fill="#ef5a24" stroke="none"/></g></g></g>
+<g transform="translate(203 39)"><g class="arrow" fill="none" stroke="#171717" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-5 5L5-5M-3-5h8v8"/></g></g>
+</g><rect x=".5" y=".5" width="231" height="75" rx="2" fill="none" stroke="#dbd5ca"/>
+</svg>

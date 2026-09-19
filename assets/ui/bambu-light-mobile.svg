@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="96" viewBox="0 0 180 96" role="img" aria-labelledby="title"><title id="title">Bambu Studio AI</title>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#171717;letter-spacing:-.5px}.trace{stroke-dasharray:90}@media(prefers-reduced-motion:no-preference){.trace{animation:trace 5.6s ease-in-out infinite}.rule{animation:rule 5.6s ease-in-out infinite}}@keyframes trace{0%,100%{stroke-dashoffset:0}40%{stroke-dashoffset:90}75%{stroke-dashoffset:0}}@keyframes rule{0%,100%{transform:translateX(0)}50%{transform:translateX(108px)}}</style>
+<rect x=".5" y=".5" width="179" height="95" rx="2" fill="#f5f2ea" stroke="#dbd5ca"/>
+<text x="12" y="21" font-size="9" style="font-family:Menlo,Consolas,monospace;font-weight:400;fill:#696157;letter-spacing:1px">01 / Build</text><text x="12" y="48" font-size="25">Bambu</text><text x="12" y="74" font-size="25">Studio AI</text>
+<path d="M12 92h156" stroke="#dbd5ca"/><path class="rule" d="M12 92h36" stroke="#ef5a24" stroke-width="2"/>
+</svg>
