@@ -66,3 +66,17 @@ The dedicated GitHub Actions workflow refreshes the chart daily and can also be 
 Source lives in `videos/profile-motion`. The approved light and dark GIFs are 1600×360, 4.8 seconds at a nominal 15 fps and loop with a final hold. Each stays below 600 KB. Reduced-motion visitors receive a final-frame PNG instead, and explicit static links remain available. The GIFs contain no script, tracking, or runtime dependency.
 
 Typography follows the original architectural hero: bold, compact sans-serif display type, not a monospace headline. The source hero artwork is unchanged. The motion strip uses locally bundled Inter Black 900 for the three large steps and JetBrains Mono only for small utility labels, with the fonts' licenses retained. Heavy weight must not come at the expense of readable word gaps, line spacing, or space above the orange rules. Both themes share the same layout.
+
+### Motion-study guardrails (2026-09-19)
+
+The user explicitly reaffirmed the existing look after seeing animation work in progress. Upgrade motion, not the visual identity: keep the warm paper/charcoal surfaces, natural shadows, glass/concrete sculpture, exact heavy headline lettering, project illustrations, and existing content/layout.
+
+The current flat orange contribution calendar remains the default. An isometric contribution field is an optional unapproved concept, not a replacement. Any later advanced chart implementation needs desktop/mobile design review and must preserve real public data and a readable flat fallback.
+
+The hero source lives under `videos/profile-motion/hero-next`. Reject cutout seams, broken rods, cropped glass, or changed letterforms even if automated checks pass. The final treatment leaves the original poster intact for the entire sequence and adds only a thin orange signal along the existing rod and brief glass-edge traces. The overlay clears completely before the final hold. The rejected clean-plate studies are not used or published.
+
+### Approved hero publication (2026-09-19)
+
+After reviewing the light and dark local previews, the user explicitly requested publication to GitHub. The README uses paired eight-second GIFs at a nominal 15 fps, with the original JPEGs selected for reduced-motion visitors and linked as always-available still editions. The GIF palette necessarily quantizes photographic colors; the untouched full-color originals remain the static source of truth. No JavaScript, iframe, replay button, or external animation service is embedded in the README.
+
+The original typography, imagery, project covers, profile copy, flat contribution chart, and daily contribution-refresh workflow are unchanged. To regenerate the GIFs, run `npm run check`, `npm run check:dark`, `npm run render:light`, `npm run render:dark`, and `npm run verify:delivery` in `videos/profile-motion/hero-next`. The delivery check verifies dimensions, duration, asset weight, motion presence, unchanged headline pixels during motion, and a tightly bounded opening-to-final palette difference. Inspect the actual encoded frames before publishing. Reverting the hero publication commit restores the previous static hero without affecting the contribution workflow.

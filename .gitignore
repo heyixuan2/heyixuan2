@@ -15,3 +15,13 @@ videos/profile-motion/renders/
 videos/profile-motion/.thumbnails/
 videos/profile-motion/dark/.thumbnails/
 videos/profile-motion/dark/snapshots-*/
+# Local source-faithful hero study: keep generated verification artifacts local.
+videos/profile-motion/hero-next/**/.hyperframes/
+videos/profile-motion/hero-next/**/.hf-tmp/
+videos/profile-motion/hero-next/**/.thumbnails/
+videos/profile-motion/hero-next/**/proofs-*/
+videos/profile-motion/hero-next/**/snapshots*/
+videos/profile-motion/hero-next/**/renders/
+# Unused clean plates from rejected cutout studies are not delivery assets.
+videos/profile-motion/hero-next/assets/clean-light.png
+videos/profile-motion/hero-next/dark/assets/clean-dark.png
