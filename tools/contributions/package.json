@@ -1,0 +1,7 @@
+{
+  "name": "field-notes-contributions",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node generate.mjs", "test": "node --test generate.test.mjs" },
+  "dependencies": { "d3-scale": "4.0.2", "linkedom": "0.18.12" }
+}

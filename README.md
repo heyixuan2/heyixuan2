@@ -4,15 +4,49 @@
   <img src="./assets/field-notes-hero-light.jpg" alt="Yixuan He — selected work. Think in systems. Build for people. AI engineering, data science, and product delivery." width="100%">
 </picture>
 
-## I turn business problems into useful, working AI systems.
+## From idea to MVP. Built for enterprise realities.
 
-I design, build, and ship at the intersection of **LLM systems, data science, enterprise automation, and business impact**.
+I turn ambiguous business ideas into **working AI products** — connecting the problem, the people, and the engineering needed to make them useful.
 
-[View portfolio ↗](https://www.yixuanhe.com) &nbsp; / &nbsp; [Explore the builds ↓](#two-ways-i-build) &nbsp; / &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/yixuanhe2/)
+A **forward-deployed mindset**: get close to the work, build the first useful version quickly, and keep going beyond the demo. Fast to first value; thoughtful about reliability, access, and the human workflow.
+
+[View portfolio ↗](https://www.yixuanhe.com) &nbsp; / &nbsp; [Explore the builds ↓](#selected-public-builds) &nbsp; / &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/yixuanhe2/)
 
 <sub>Two editions, one profile. Artwork follows your GitHub light or dark theme. <a href="https://github.com/settings/appearance">Change appearance ↗</a></sub>
 
-## Two ways I build
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/profile-motion-dark-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-motion-light-static.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-motion-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-motion-light.gif">
+  <img src="./assets/profile-motion-light.gif" alt="From idea to MVP: clarify the idea, build the MVP, learn and iterate. Fast to first value. Built for real use." width="100%">
+</picture>
+
+<sub>Prefer stillness? <a href="./assets/profile-motion-light-static.png">Static light</a> / <a href="./assets/profile-motion-dark-static.png">static dark</a>.</sub>
+
+## Enterprise AI, built end to end.
+
+**Private work. Real business problems. Full-stack ownership.**
+
+At Mercedes-Benz, I'm the sole developer of an internal enterprise platform focused on **AI transformation**: turning business-process ideas into concrete, actionable solution plans. I own the engineering end to end; the ideas and business context are shaped with the team.
+
+The interesting part is the translation — from “could AI help here?” to a clear problem, a working MVP, and a practical path to implementation.
+
+<details>
+<summary><strong>What I bring — from the first conversation to a usable system</strong></summary>
+
+- **Problem framing.** Work with business teams to find the decision, bottleneck, and user need beneath the initial request.
+- **Rapid delivery.** Make the idea tangible early, then iterate on a real workflow rather than a slide deck.
+- **End-to-end engineering.** Connect the AI layer, application, data, and delivery into one coherent product.
+- **Enterprise judgment.** Treat reliability, access, traceability, and human review as design constraints, not afterthoughts.
+
+The implementation stays private. No internal screenshots, system details, or company data are published here.
+
+</details>
+
+## Selected public builds
+
+Different domains. The same habit: connect intelligence to something people can actually use.
 
 <table>
   <tr>
@@ -96,18 +130,21 @@ Systems thinking, from the model to the last mile.
 
 </details>
 
-<details>
-<summary><strong>A small moving detail — contribution trail</strong></summary>
+## Building, one day at a time.
 
+<!-- generated from the unauthenticated public calendar; never from private repository details -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heyixuan2/heyixuan2/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heyixuan2/heyixuan2/output/github-contribution-grid-snake.svg">
-  <img alt="Animated snake moving through Yixuan's GitHub contribution graph." src="https://raw.githubusercontent.com/heyixuan2/heyixuan2/output/github-contribution-grid-snake.svg" width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 1100px)" srcset="./assets/contributions-dark-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 1100px)" srcset="./assets/contributions-light-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/contributions-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-light-static.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 1100px)" srcset="./assets/contributions-dark-mobile.svg">
+  <source media="(max-width: 1100px)" srcset="./assets/contributions-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
+  <img alt="A year in motion: Yixuan's real GitHub contribution calendar, with daily activity in orange and weekly totals below. Source dates and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
 </picture>
 
-<sub>A playful view of contribution activity, not a productivity score. The animation stays tucked away until you open it.</sub>
-
-</details>
+<sub>Our own view of the <a href="https://github.com/heyixuan2?tab=overview">public GitHub calendar</a>. Daily squares, weekly totals, no invented activity. Contribution counts are not a measure of impact. <a href="./assets/contributions-light-static.svg">Static light</a> / <a href="./assets/contributions-dark-static.svg">Static dark</a>.</sub>
 
 <br>
 

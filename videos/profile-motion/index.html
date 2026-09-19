@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1600, height=360">
+    <title>Profile Motion — Light</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="./profile-motion.css">
+  </head>
+  <body>
+    <main data-hf-id="hf-yrpg" id="stage" class="clip" data-composition-id="profile-motion" data-start="0" data-duration="4.8" data-fps="30" data-width="1600" data-height="360" aria-label="From idea to MVP: Clarify the idea, Build the MVP, Learn and iterate.">
+      <section data-hf-id="hf-l6su" id="motion-strip">
+        <div data-hf-id="hf-cn5c" class="scene-content">
+          <p data-hf-id="hf-vy7h" class="eyebrow">FROM IDEA TO MVP</p>
+          <div data-hf-id="hf-qpwa" class="steps" aria-hidden="true">
+            <article data-hf-id="hf-gnmf" class="step"><span data-hf-id="hf-zer3" class="step-index">01</span><span data-hf-id="hf-rn4w" class="step-line">Clarify</span><span data-hf-id="hf-y2ot" class="step-line">the <span data-hf-id="hf-v00k" class="accent-wrap"><span data-hf-id="hf-i972" class="accent-base">idea.</span><span data-hf-id="hf-3ayv" class="accent-copy" id="clarify-accent">idea.</span></span></span><span data-hf-id="hf-0dxt" class="accent-rule" id="clarify-rule"></span></article>
+            <article data-hf-id="hf-ezyv" class="step"><span data-hf-id="hf-z0g2" class="step-index">02</span><span data-hf-id="hf-4c8e" class="step-line">Build</span><span data-hf-id="hf-c8c1" class="step-line">the <span data-hf-id="hf-zoj0" class="accent-wrap"><span data-hf-id="hf-2r6q" class="accent-base">MVP.</span><span data-hf-id="hf-cmgr" class="accent-copy" id="build-accent">MVP.</span></span></span><span data-hf-id="hf-3fkz" class="accent-rule" id="build-rule"></span></article>
+            <article data-hf-id="hf-elnu" class="step"><span data-hf-id="hf-ym51" class="step-index">03</span><span data-hf-id="hf-fu02" class="step-line">Learn.</span><span data-hf-id="hf-04uu" class="step-line"><span data-hf-id="hf-yhlx" class="accent-wrap"><span data-hf-id="hf-afv7" class="accent-base">Iterate.</span><span data-hf-id="hf-g2dc" class="accent-copy" id="iterate-accent">Iterate.</span></span></span><span data-hf-id="hf-bfcp" class="accent-rule" id="iterate-rule"></span></article>
+          </div>
+          <p data-hf-id="hf-s3qo" class="footer">Fast to first value. Built for real use.</p>
+        </div>
+      </section>
+    </main>
+    <script>
+      var tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["profile-motion"] = tl;
+      function emphasize(copySelector, ruleSelector, start) {
+        tl.fromTo(copySelector, { autoAlpha: 1, clipPath: "inset(0 100% 0 0)" }, { autoAlpha: 1, clipPath: "inset(0 0% 0 0)", duration: 0.6, ease: "power2.out" }, start);
+        tl.fromTo(ruleSelector, { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "sine.inOut" }, start);
+      }
+      emphasize("#clarify-accent", "#clarify-rule", 0.25);
+      emphasize("#build-accent", "#build-rule", 1.45);
+      emphasize("#iterate-accent", "#iterate-rule", 2.65);
+      tl.addLabel("overview", 3.45);
+      tl.to({}, { duration: 1.35 }, 3.45);
+      tl.seek(0);
+    </script>
+  </body>
+</html>

@@ -3,3 +3,15 @@
 design-qa.md
 # Full-quality source exports stay local; web-optimized JPEGs are published.
 assets/field-notes-*.png
+node_modules/
+videos/profile-motion/.hyperframes/
+videos/profile-motion/.hf-tmp/
+videos/profile-motion/snapshots/
+videos/profile-motion/snapshots-*/
+videos/profile-motion/dark/snapshots/
+videos/profile-motion/dark/.hyperframes/
+videos/profile-motion/dark/.hf-tmp/
+videos/profile-motion/renders/
+videos/profile-motion/.thumbnails/
+videos/profile-motion/dark/.thumbnails/
+videos/profile-motion/dark/snapshots-*/

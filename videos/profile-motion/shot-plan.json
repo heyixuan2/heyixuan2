@@ -1,0 +1,79 @@
+{
+  "category": "kinetic-type",
+  "duration_s": 4.8,
+  "fps": 30,
+  "canvas": { "w": 1600, "h": 360, "aspect": "40:9" },
+  "style": "Refined architectural editorial strip for a GitHub profile: oversized condensed grotesk, monospaced utility copy, generous left alignment, hairline rules, restrained material warmth, and one structural orange accent. Provide matched light and dark editions; no photographic or illustrative assets.",
+  "palette": {
+    "light": { "background": "#f5f2ea", "ink": "#171717", "accent": "#ed5c24" },
+    "dark": { "background": "#151719", "ink": "#f3efe6", "accent": "#ff783e" }
+  },
+  "font": {
+    "display": "Inter Black 900",
+    "utility": "JetBrains Mono",
+    "fallback": "system-ui, sans-serif"
+  },
+  "beats": [0, 0.25, 0.85, 1.45, 2.05, 2.65, 3.25, 3.45, 4.8],
+  "export": "gif",
+  "delivery": {
+    "readme_asset": "direct 15fps GIF with static PNG alternatives",
+    "loop_count": 0,
+    "audio": false,
+    "last_frame_hold_s": 1.35,
+    "accessibility": "All copy is already legible and meaningful at frame 0; the animation only adds emphasis."
+  },
+  "asset_needs": [],
+  "block": "caption-editorial-emphasis",
+  "customize": {
+    "editions": ["light", "dark"],
+    "layout": "wide editorial grid with an upper-left mono eyebrow, then three generous horizontal columns. Each column carries one large readable two-line step: ‘Clarify / the idea.’, ‘Build / the MVP.’, and ‘Learn. / Iterate.’. Persistent context sits at lower left. Keep at least 64px side padding and preserve 800px readability. Omit the long positioning headline from the strip so the 360px canvas stays breathable.",
+    "type_system": "Use a dense, all-caps display face for the three states and a tracked monospaced face for eyebrow/context. Do not introduce logos, URLs, company names, project identifiers, metrics, UI mockups, or icons.",
+    "accent": "Orange is limited to the active terminal phrase and its 2px horizontal rule; all other type remains ink. No glow, grain, flash, glitch, bounce, or color cycling.",
+    "motion": "All three rows render at frame 0 in stable ink. For each beat, a duplicate of the currently emphasized terminal phrase is revealed left-to-right through a horizontal mask while a 2px orange rule travels with it, then both settle. The base phrase never disappears. Use smooth power2.out / sine.inOut timing with no overshoot."
+  },
+  "content": {
+    "eyebrow": "FROM IDEA TO MVP",
+    "headline": null,
+    "persistent_context": "Fast to first value. Built for real use.",
+    "final_state": "all-three-step-overview",
+    "scenes": [
+      {
+        "id": "clarify",
+        "start": 0,
+        "end": 1.2,
+        "text": "Clarify the idea.",
+        "emphasis_words": ["idea."],
+        "emotion": "attentive and direct",
+        "motion": "Frame 0: full row is visible in ink. From 0.25s to 0.85s, reveal an orange duplicate of ‘idea.’ through a left-to-right horizontal mask while its rule sweeps 12px below; settle without scale change.",
+        "beats": [0.25, 0.85]
+      },
+      {
+        "id": "build",
+        "start": 1.2,
+        "end": 2.4,
+        "text": "Build the MVP.",
+        "emphasis_words": ["MVP."],
+        "emotion": "decisive and practical",
+        "motion": "Frame 0: full row is visible in ink. From 1.45s to 2.05s, reveal an orange duplicate of ‘MVP.’ through the same left-to-right horizontal mask and rule; hold the completed emphasis.",
+        "beats": [1.45, 2.05]
+      },
+      {
+        "id": "iterate",
+        "start": 2.4,
+        "end": 4.8,
+        "text": "Learn. Iterate.",
+        "emphasis_words": ["Iterate."],
+        "emotion": "calm forward momentum",
+        "motion": "Frame 0: full row is visible in ink. From 2.65s to 3.25s, reveal an orange duplicate of ‘Iterate.’ through the matching horizontal mask and rule. At 3.45s all three orange rules resolve into a quiet three-step overview; hold completely still through 4.80s.",
+        "beats": [2.65, 3.25, 3.45]
+      }
+    ],
+    "frame_zero": "Eyebrow, all three two-line step columns, persistent context, and the inactive structural rules are fully visible. The long positioning headline is intentionally omitted because it is native README copy. Only orange emphasis and rule positions change after frame 0.",
+    "negative_constraints": [
+      "No FDE title or employment claim.",
+      "No AI-transformation wording.",
+      "No private project details, names, URLs, authentication, or fabricated metrics.",
+      "No flashing, bounce, glitch, shake, typing cursor, or autoplay-dependent information."
+    ]
+  }
+}
