@@ -91,8 +91,6 @@ Systems thinking, from the model to the last mile.
   <img alt="A Year in Motion: Yixuan's real GitHub contribution calendar as an oblique field of glass cuboids. Each day is one column; orange tint and height follow GitHub activity levels. Clear low bases mean zero activity. Source dates, total, and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
 </picture>
 
-<sub>One glass column per day. Tint and height follow GitHub's activity levels; clear bases mark zero activity. Refreshed daily from the public calendar. Contribution counts are not a measure of impact.</sub>
-
 <br>
 
 <picture>

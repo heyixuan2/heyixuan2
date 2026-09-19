@@ -65,7 +65,7 @@ test('glass geometry preserves exact dates and ordinal levels across responsive 
     }
     assert.ok(svg.includes('not a linear count scale'));
     assert.ok(svg.includes('zero-contribution days'));
-    assert.ok(svg.includes('Tint + Height = Activity Level'));
+    assert.ok(!svg.includes('Tint + Height = Activity Level'));
     assert.ok(!/NaN|Infinity|<image|<circle|<ellipse/.test(svg));
     assert.ok(Buffer.byteLength(svg) < 220000, 'shared glass fragments keep the SVG lightweight');
   }
@@ -105,7 +105,8 @@ test('README selects responsive themes and reduced-motion files without auxiliar
   for (const theme of ['light', 'dark']) for (const mobile of [false, true]) for (const animated of [false, true]) {
     assert.ok(chart.includes(`contributions-${theme}${mobile ? '-mobile' : ''}${animated ? '' : '-static'}.svg`));
   }
-  assert.ok(chart.includes('One glass column per day.'));
+  assert.ok(!chart.includes('One glass column per day.'));
+  assert.ok(!chart.includes('<sub>'));
   assert.equal((chart.match(/orientation: portrait/g) || []).length, 4, 'landscape uses the wide calendar');
   assert.ok(!/weekly totals|Daily squares|<details|<summary/.test(chart));
 });

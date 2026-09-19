@@ -188,7 +188,6 @@ export function renderCalendar(data, theme = 'light', mobile = false, animated =
   text(legendX - 36, bottom, 'Less', 'class="muted" style="font-size:12px"');
   GLASS_HEIGHTS.forEach((_, i) => parts.push(`<use href="#glass-key-${i}" transform="translate(${legendX + i * 29} ${bottom - 7})" aria-hidden="true"/>`));
   text(legendX + 150, bottom, 'More', 'class="muted" style="font-size:12px"');
-  text(mobile ? width / 2 : pad, mobile ? 694 : bottom, 'Tint + Height = Activity Level', `class="muted" ${mobile ? 'text-anchor="middle"' : ''} style="font-size:12px"`);
   parts.push(`<path d="M${pad} ${height - 48}.5H${width - pad}" stroke="${p.rule}" stroke-width=".75"/>`);
   text(pad, height - 24, `GitHub public calendar · updated ${data.updated.slice(0, 10)}`, `class="muted" style="font-size:${mobile ? 12.5 : 11}px"`);
   parts.push('</svg>');
