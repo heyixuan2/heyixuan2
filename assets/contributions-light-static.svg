@@ -925,7 +925,6 @@
 <use href="#glass-key-3" transform="translate(814 449)" aria-hidden="true"/>
 <use href="#glass-key-4" transform="translate(843 449)" aria-hidden="true"/>
 <text x="877" y="456" class="muted" style="font-size:12px">More</text>
-<text x="32" y="456" class="muted"  style="font-size:12px">Tint + Height = Activity Level</text>
 <path d="M32 472.5H928" stroke="#d4cfc5" stroke-width=".75"/>
 <text x="32" y="496" class="muted" style="font-size:11px">GitHub public calendar · updated 2026-09-19</text>
 </svg>
