@@ -54,12 +54,22 @@ The dedicated GitHub Actions workflow refreshes the chart daily and can also be 
 
 ### Rendering and mobile contract
 
-- A single self-contained SVG is loaded by `picture`; D3 owns the weekly bar scale. Native SVG owns the modest daily mark field, text, and explicit legend. No runtime script, third-party widget, tracker, fonts, or network calls are embedded.
-- Daily color uses GitHub's existing five levels, not a newly invented score. Bar height represents the sum for each week, with zero baseline and the same scale across the two mobile panels.
-- Desktop is a continuous 53/54-week calendar; mobile portrait recomposes it into two chronological half-year panels. It does not just shrink the desktop labels.
-- Motion reveals weeks chronologically over roughly 3.6 seconds, once, then holds. Reduced-motion users receive a static file; each SVG also has its own reduced-motion rule. Static links are always available.
+- A single self-contained SVG is loaded by `picture`; D3 owns the responsive height scale. Native SVG owns the glass cuboids, oblique projection, gradients, consistent ground shadows, text, and explicit legend. No runtime script, third-party widget, tracker, fonts, or network calls are embedded.
+- Daily color and height redundantly encode GitHub's existing five ordinal levels, not a newly invented score or linear count scale. A low clear plinth marks a zero day, not nonzero activity. Exact dates and counts are preserved in every SVG mark and in `assets/contributions.json`.
+- Desktop and wide landscape use a continuous 53/54-week calendar. Mobile portrait recomposes it into two chronological half-year panels, recalculating positions, dimensions, and label spacing. It does not just shrink the desktop labels. Both panels share the same height and tint mapping.
+- Motion reveals days in chronological week order over roughly 3.6 seconds, once, then holds. Reduced-motion users receive a static file; each SVG also has its own reduced-motion rule. Data geometry never moves or changes to imply live events.
 - Embedded SVG images cannot supply real hover/tap tooltips or interactive filtering inside GitHub's README. Essential source, units, and meaning are visible. Clicking through to GitHub is the inspection path, and its controls retain normal keyboard/touch behavior. No scrolling or gestures are captured.
-- At most one chart is displayed at once, with fewer than 500 SVG marks. Canvas or WebGL would remove accessible semantics without a useful performance benefit.
+- At most one chart is displayed at once, with 350–378 daily marks referencing five shared local glass shapes. Each SVG is kept below 220 KB. The only SVG references are local fragments, never external resources. Browser-side Canvas or WebGL is unnecessary, and offline rendering needs only the existing Node dependencies.
+
+### Approved glass calendar (2026-09-20)
+
+The user approved the revised concept with “这次对了”. The approved direction is a warm architectural field of rectangular glass cuboids viewed obliquely from above, not the rejected cylindrical or front-on designs. The reference is concept image `exec-3097a08d-3fca-4283-a71e-95f0d3c1c556.png`, shown in the task; it is a material/layout study, not a dataset or a raster used in production.
+
+Locked: compact editorial header, warm-paper and charcoal theme pair, orange transparent faces and white refractive edges, consistent soft directional shadows, a rectangular calendar receding toward the upper right, one mark per real day, bounded height and tint by activity level, five-level glass legend, source range/total/update date, and two-panel narrow continuation. Flexible: renderer-specific face gradients, exact pixel sizes, and label spacing. The concept's illustrative dates and distribution are replaced by the real fetched values. Shadows and reflections are deterministic SVG approximations, not AI-generated or ray-traced imagery.
+
+Technical contract: one image instance, shared material definitions, moderate vector count, no user interaction/state/URL persistence inside the image. Public GitHub's native contribution grid remains the flat inspection alternative on the profile. No hover-only information, drag capture, mobile controls, sensors, or new permissions are introduced. The existing daily GitHub Actions job executes the same generator in GitHub's hosted runner; it does not use the owner's computer. Failed fetches or validation keep the last valid assets. The snapshot is not live, and GitHub scheduling and image caches can delay visibility.
+
+Verification covers all eight theme/layout/motion combinations, exact mark/count/date preservation, zero days and outliers, 350–378-day calendars, finite in-frame geometry, back-to-front paint order, deterministic regeneration, no external SVG resources, reduced motion, and unchanged profile navigation/project content. Review the actual browser-rendered light/dark, portrait, and landscape states before publication. Rollback is a normal revert of the chart change; no workflow, authentication, or provider changes are required.
 
 ### Motion strip
 
@@ -71,7 +81,7 @@ Typography follows the original architectural hero: bold, compact sans-serif dis
 
 The user explicitly reaffirmed the existing look after seeing animation work in progress. Upgrade motion, not the visual identity: keep the warm paper/charcoal surfaces, natural shadows, glass/concrete sculpture, exact heavy headline lettering, project illustrations, and existing content/layout.
 
-The current flat orange contribution calendar remains the default. An isometric contribution field is an optional unapproved concept, not a replacement. Any later advanced chart implementation needs desktop/mobile design review and must preserve real public data and a readable flat fallback.
+At that point the flat orange contribution calendar remained the default and the isometric field was unapproved. This historical constraint was superseded by the explicit glass-calendar approval above; real public data and GitHub's native flat calendar remain available.
 
 The hero source lives under `videos/profile-motion/hero-next`. Reject cutout seams, broken rods, cropped glass, or changed letterforms even if automated checks pass. The final treatment leaves the original poster intact for the entire sequence and adds only a thin orange signal along the existing rod and brief glass-edge traces. The overlay clears completely before the final hold. The rejected clean-plate studies are not used or published.
 
