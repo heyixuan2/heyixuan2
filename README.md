@@ -1,12 +1,10 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/field-notes-hero-dark.jpg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/field-notes-hero-light.jpg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/field-notes-hero-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/field-notes-hero-light.gif">
-  <img src="./assets/field-notes-hero-light.gif" alt="Yixuan He — selected work. Think in systems. Build for people. AI engineering, data science, and product delivery." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/field-notes-hero-dark-v2.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/field-notes-hero-light-v2.jpg">
+  <img src="./assets/field-notes-hero-light-v2.jpg" alt="Yixuan He. From what if. To what works. AI engineering, rapid prototyping, and enterprise delivery." width="100%">
 </picture>
 
-<sub>Still editions: <a href="./assets/field-notes-hero-light.jpg">light</a> / <a href="./assets/field-notes-hero-dark.jpg">dark</a>.</sub>
+<sub>Artwork editions: <a href="./assets/field-notes-hero-light-v2.jpg">light</a> / <a href="./assets/field-notes-hero-dark-v2.jpg">dark</a>.</sub>
 
 ## From idea to MVP. Built for enterprise realities.
 
