@@ -153,8 +153,3 @@ Systems thinking, from the model to the last mile.
   <source media="(prefers-color-scheme: light)" srcset="./assets/field-notes-footer-light.jpg">
   <img src="./assets/field-notes-footer-light.jpg" alt="Make complexity legible." width="100%">
 </picture>
-
-<p align="center">
-  <a href="https://www.yixuanhe.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/portfolio-dark.svg"><img src="./assets/ui/portfolio-light.svg" alt="Portfolio" width="232" height="76"></picture></a>
-  <a href="https://www.linkedin.com/in/yixuanhe2/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/linkedin-dark.svg"><img src="./assets/ui/linkedin-light.svg" alt="LinkedIn" width="232" height="76"></picture></a>
-</p>
