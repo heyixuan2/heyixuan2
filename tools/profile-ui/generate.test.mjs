@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { controls, renderControl, renderCompact } from './generate.mjs';
+import { controls, renderControl, renderCompact, renderNavigation } from './generate.mjs';
 
 test('all controls are accessible, self-contained, motion-aware SVGs', () => {
   assert.equal(new Set(controls.map(c=>c.id)).size, controls.length);
@@ -33,7 +33,20 @@ test('README removes auxiliary links and uses designed controls for every text C
   assert.ok(md.includes('## From Idea to MVP. Built for Enterprise Realities.'));
   assert.ok(md.includes('## Selected Public Builds'));
   assert.ok(md.includes('href="#selected-public-builds"'));
-  for(const c of controls) assert.ok(md.includes(`./assets/ui/${c.id}-light.svg`),c.id);
+  for(const c of controls) assert.ok(md.includes(`./assets/ui/${c.id==='builds'?'nav-':''}${c.id}-light.svg`),c.id);
   assert.equal((md.match(/<details>/g)||[]).length,6);
   assert.equal((md.match(/<summary>/g)||[]).length,6);
+});
+
+test('primary navigation fills one row in three equal slots', () => {
+  const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
+  const row=md.match(/<p>\n[\s\S]*?<\/p>/)[0];
+  assert.equal((row.match(/width="33\.333333%"/g)||[]).length,3);
+  assert.equal((row.replace(/<!--[\s\S]*?-->/g,'').match(/<\/a><a /g)||[]).length,2);
+  for(const id of ['portfolio','builds','linkedin']) for(const theme of ['light','dark']) for(const compact of [false,true]){
+    const svg=renderNavigation(id,theme,compact);
+    assert.ok(svg.includes(`viewBox="0 0 ${compact?'180 108':'288 76'}"`));
+    assert.ok(svg.includes('prefers-reduced-motion:no-preference'));
+    assert.equal(readFileSync(new URL(`../../assets/ui/nav-${id}-${theme}${compact?'-mobile':''}.svg`,import.meta.url),'utf8'),svg);
+  }
 });
