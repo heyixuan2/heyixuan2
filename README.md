@@ -32,17 +32,12 @@ At Mercedes-Benz, I'm the sole developer of an internal enterprise platform focu
 
 The interesting part is the translation — from “could AI help here?” to a clear problem, a working MVP, and a practical path to implementation.
 
-<details open>
-<summary><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/discovery-dark.svg"><img src="./assets/ui/discovery-light.svg" alt="From Discovery to Delivery" width="300" height="54"></picture></summary>
-
 - **Problem Framing.** Work with business teams to find the decision, bottleneck, and user need beneath the initial request.
 - **Rapid Delivery.** Make the idea tangible early, then iterate on a real workflow rather than a slide deck.
 - **End-to-End Engineering.** Connect the AI layer, application, data, and delivery into one coherent product.
 - **Enterprise Judgment.** Treat reliability, access, traceability, and human review as design constraints, not afterthoughts.
 
 The implementation stays private. No internal screenshots, system details, or company data are published here.
-
-</details>
 
 ## Selected Public Builds
 
