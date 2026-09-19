@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="376" viewBox="0 0 960 376" role="img" aria-labelledby="title desc"><title id="title">Yixuan He — 5,681 contributions</title><desc id="desc">Publicly visible GitHub calendar, 2025-09-14 to 2026-09-19. One square per day; orange intensity follows GitHub activity levels. Weekly bars show summed contributions. Activity is not a measure of impact. Weeks reveal chronologically once, then hold. Reduced motion shows the final state.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="376" viewBox="0 0 960 376" role="img" aria-labelledby="title desc"><title id="title">Yixuan He — 5,689 contributions</title><desc id="desc">Publicly visible GitHub calendar, 2025-09-14 to 2026-09-19. One square per day; orange intensity follows GitHub activity levels. Weekly bars show summed contributions. Activity is not a measure of impact. Weeks reveal chronologically once, then hold. Reduced motion shows the final state.</desc>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#171717;font-size:13px} .muted{fill:#615d56} .mono{font-family:Menlo,Consolas,monospace} .week{opacity:1}@media(prefers-reduced-motion:no-preference){.week{animation:reveal .7s ease-out both;animation-delay:var(--delay)}}@keyframes reveal{from{opacity:.18}to{opacity:1}}</style><rect width="100%" height="100%" fill="#f5f2ea"/>
 <text x="32" y="33" class="mono muted" font-size="11" letter-spacing="1.8">FIELD NOTES / ACTIVITY</text>
 <text x="32" y="80" style="font-size:34px;font-weight:700;letter-spacing:-1px">A year in motion.</text>
-<text x="928" y="77" text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px">5,681</text>
+<text x="928" y="77" text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px">5,689</text>
 <text x="928" y="99" text-anchor="end" class="muted">contributions</text>
 <text x="32" y="105" class="muted">Sep 14, 2025 — Sep 19, 2026</text>
 <path d="M32 123.5H928" stroke="#d4cfc5" stroke-width="1"/>
@@ -497,8 +497,8 @@
 <rect x="904" y="205" width="12" height="12" rx="1" fill="#efc2ad" data-date="2026-09-16" data-count="72"><title>2026-09-16: 72 contributions</title></rect>
 <rect x="904" y="221" width="12" height="12" rx="1" fill="#e99266" data-date="2026-09-17" data-count="145"><title>2026-09-17: 145 contributions</title></rect>
 <rect x="904" y="237" width="12" height="12" rx="1" fill="#9f310c" data-date="2026-09-18" data-count="353"><title>2026-09-18: 353 contributions</title></rect>
-<rect x="904" y="253" width="12" height="12" rx="1" fill="#d65c27" data-date="2026-09-19" data-count="258"><title>2026-09-19: 258 contributions</title></rect>
-<rect x="904" y="285.2775290957923" width="12" height="29.72" fill="#d85925" opacity=".82"><title>Week of 2026-09-13: 830 contributions</title></rect></g>
+<rect x="904" y="253" width="12" height="12" rx="1" fill="#9f310c" data-date="2026-09-19" data-count="266"><title>2026-09-19: 266 contributions</title></rect>
+<rect x="904" y="284.9910474485228" width="12" height="30.01" fill="#d85925" opacity=".82"><title>Week of 2026-09-13: 838 contributions</title></rect></g>
 <text x="32" y="337" class="mono muted" style="font-size:11px;letter-spacing:.6px">WEEKLY TOTALS ↑</text>
 <text x="715" y="337" class="muted" style="font-size:11px">Less</text>
 <rect x="751" y="327" width="11" height="11" rx="1" fill="#dfdad0"/>
