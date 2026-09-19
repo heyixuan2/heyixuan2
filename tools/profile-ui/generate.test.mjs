@@ -33,19 +33,19 @@ test('README removes auxiliary links and uses designed controls for every text C
   assert.ok(md.includes('## From Idea to MVP. Built for Enterprise Realities.'));
   assert.ok(md.includes('## Selected Public Builds'));
   assert.ok(md.includes('href="#selected-public-builds"'));
-  for(const c of controls.filter(c=>['portfolio','builds','linkedin','bambu','ashare','discovery'].includes(c.id))) assert.ok(md.includes(`./assets/ui/${['portfolio','builds','linkedin'].includes(c.id)?'nav-':''}${c.id}-light.svg`),c.id);
-  assert.equal((md.match(/<details(?:\s[^>]*)?>/g)||[]).length,1);
-  assert.equal((md.match(/<summary>/g)||[]).length,1);
+  for(const c of controls.filter(c=>['portfolio','builds','linkedin','bambu','ashare'].includes(c.id))) assert.ok(md.includes(`./assets/ui/${['portfolio','builds','linkedin'].includes(c.id)?'nav-':''}${c.id}-light.svg`),c.id);
+  assert.equal((md.match(/<details(?:\s[^>]*)?>/g)||[]).length,0);
+  assert.equal((md.match(/<summary>/g)||[]).length,0);
 });
 
-test('enterprise delivery section is expanded by default', () => {
+test('enterprise delivery principles are inline without a disclosure card', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  const section=md.match(/<details\b[\s\S]*?<\/details>/)[0];
-  assert.ok(section.startsWith('<details open>'));
-  assert.ok(section.includes('alt="From Discovery to Delivery"'));
+  const section=md.split('## Enterprise AI, Built End to End.')[1].split('## Selected Public Builds')[0];
+  assert.ok(!/<details|<summary|From Discovery to Delivery|assets\/ui\/discovery-/.test(section));
   for(const label of ['Problem Framing.','Rapid Delivery.','End-to-End Engineering.','Enterprise Judgment.']) {
     assert.ok(section.includes(`**${label}**`));
   }
+  assert.ok(section.includes('The implementation stays private.'));
 });
 
 test('project descriptions are always visible and linked title cards match artwork width', () => {
