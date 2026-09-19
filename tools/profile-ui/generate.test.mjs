@@ -33,9 +33,16 @@ test('README removes auxiliary links and uses designed controls for every text C
   assert.ok(md.includes('## From Idea to MVP. Built for Enterprise Realities.'));
   assert.ok(md.includes('## Selected Public Builds'));
   assert.ok(md.includes('href="#selected-public-builds"'));
-  for(const c of controls) assert.ok(md.includes(`./assets/ui/${c.id==='builds'?'nav-':''}${c.id}-light.svg`),c.id);
+  for(const c of controls) assert.ok(md.includes(`./assets/ui/${['portfolio','builds','linkedin'].includes(c.id)?'nav-':''}${c.id}-light.svg`),c.id);
   assert.equal((md.match(/<details>/g)||[]).length,6);
   assert.equal((md.match(/<summary>/g)||[]).length,6);
+});
+
+test('footer closes with artwork without repeating primary links', () => {
+  const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
+  assert.equal((md.match(/alt="Portfolio"/g)||[]).length,1);
+  assert.equal((md.match(/alt="LinkedIn"/g)||[]).length,1);
+  assert.match(md, /<picture>\s*<source[^>]*field-notes-footer-dark\.jpg[\s\S]*?alt="Make complexity legible\."[^>]*>\s*<\/picture>\s*$/);
 });
 
 test('primary navigation fills one row in three equal slots', () => {
