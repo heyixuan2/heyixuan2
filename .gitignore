@@ -1,0 +1,5 @@
+# Local visual previews and verification evidence are not profile assets.
+.preview/
+design-qa.md
+# Full-quality source exports stay local; web-optimized JPEGs are published.
+assets/field-notes-*.png
