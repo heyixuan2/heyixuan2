@@ -37,6 +37,12 @@ The interesting part is the translation — from “could AI help here?” to a 
 - **End-to-End Engineering.** Connect the AI layer, application, data, and delivery into one coherent product.
 - **Enterprise Judgment.** Treat reliability, access, traceability, and human review as design constraints, not afterthoughts.
 
+**What That Has Looked Like.**
+
+- Took the platform from proof of concept to a live pilot with its first real users, and am engineering it toward production — the hardening, review, and access work an internal rollout actually requires.
+- Designed an original scoring framework that rates each business-process step's automation potential and flags whether to enhance, reinvent, disrupt, or streamline it.
+- Re-engineered a Dify-based resume-screening prototype into a standalone application through agentic development. It cleared IT code review and shipped containerized with Docker for **company-wide pilot testing**.
+
 The implementation stays private. No internal screenshots, system details, or company data are published here.
 
 ## Selected Public Builds
@@ -77,6 +83,15 @@ Different domains. The same habit: connect intelligence to something people can 
 **Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**<br>
 Systems thinking, from the model to the last mile.
 
+## What I Build With
+
+| Discipline | Tools & Approaches |
+| :--- | :--- |
+| **AI Systems** | LLM workflows · RAG · AI agents · Dify · Transformers · Deep learning |
+| **AI-Assisted Development** | Claude Code · Cursor · Agentic development |
+| **Engineering** | Python · R · SQL · PostgreSQL · MongoDB · Data modeling |
+| **Delivery** | Docker · AWS EC2 · Vercel · Cloudflare · Tencent Cloud · Tailscale |
+
 ## Building, One Day at a Time.
 
 <!-- generated from the unauthenticated public calendar; never from private repository details -->
@@ -92,6 +107,12 @@ Systems thinking, from the model to the last mile.
 </picture>
 
 <br>
+
+## Let's Talk
+
+I'm always glad to talk about forward-deployed work.
+
+**[heyixuan001204@gmail.com](mailto:heyixuan001204@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/yixuanhe2/)** · **[Résumé](https://www.yixuanhe.com/assets/Yixuan_He_Resume.pdf)** · **[Portfolio](https://www.yixuanhe.com)**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/field-notes-footer-dark.jpg">
