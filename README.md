@@ -26,18 +26,7 @@ What decides the outcome is the gap between a working demo and a system people d
 
 ## Enterprise AI, Built End to End.
 
-**Private Work. Real Business Problems. Full-Stack Ownership.**
-
-At Mercedes-Benz, I'm the sole developer of an internal enterprise platform focused on **AI transformation**: turning business-process ideas into concrete, actionable solution plans. I own the engineering end to end; the ideas and business context are shaped with the team.
-
-The interesting part is the translation — from “could AI help here?” to a clear problem, a working MVP, and a practical path to implementation.
-
-- **Problem Framing.** Work with business teams to find the decision, bottleneck, and user need beneath the initial request.
-- **Rapid Delivery.** Make the idea tangible early, then iterate on a real workflow rather than a slide deck.
-- **End-to-End Engineering.** Connect the AI layer, application, data, and delivery into one coherent product.
-- **Enterprise Judgment.** Treat reliability, access, traceability, and human review as design constraints, not afterthoughts.
-
-**What That Has Looked Like.**
+At Mercedes-Benz, I'm the sole developer of an internal platform for **AI transformation**: turning business-process ideas into solution plans a team can act on. The ideas and business context are shaped with the team; the engineering is mine.
 
 - Took the platform from proof of concept to a live pilot with its first real users, and am engineering it toward production — the hardening, review, and access work an internal rollout actually requires.
 - Designed an original scoring framework that rates each business-process step's automation potential and flags whether to enhance, reinvent, disrupt, or streamline it.
