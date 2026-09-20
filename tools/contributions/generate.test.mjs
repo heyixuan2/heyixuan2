@@ -51,7 +51,7 @@ test('glass geometry preserves exact dates and ordinal levels across responsive 
         for (const point of [...mark.geometry.base, ...mark.geometry.top]) {
           assert.ok(Number.isFinite(point[0]) && Number.isFinite(point[1]));
           assert.ok(mark.x + point[0] >= 0 && mark.x + point[0] < layout.width);
-          assert.ok(mark.y + point[1] > 125 && mark.y + point[1] < layout.height - 85);
+          assert.ok(mark.y + point[1] > layout.headerBottom && mark.y + point[1] < layout.height - 85);
         }
       }
     }
@@ -101,7 +101,7 @@ test('checked-in artwork is reproducible from the public data snapshot', () => {
 
 test('README selects responsive themes and reduced-motion files without auxiliary controls', () => {
   const md = readFileSync(new URL('../../README.md', import.meta.url), 'utf8');
-  const chart = md.split('## Building, One Day at a Time.')[1].split('<br>')[0];
+  const chart = md.split('## Contribution History.')[1].split('<br>')[0];
   for (const theme of ['light', 'dark']) for (const mobile of [false, true]) for (const animated of [false, true]) {
     assert.ok(chart.includes(`contributions-${theme}${mobile ? '-mobile' : ''}${animated ? '' : '-static'}.svg`));
   }

@@ -101,7 +101,7 @@ Built on nights and weekends, for no reason except that I wanted them to exist. 
   <source media="(prefers-color-scheme: dark) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-dark-mobile.svg">
   <source media="(max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
-  <img alt="A Year in Motion: Yixuan's real GitHub contribution calendar as an oblique field of glass cuboids. Each day is one column; orange tint and height follow GitHub activity levels. Clear low bases mean zero activity. Source dates, total, and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
+  <img alt="Yixuan's real GitHub contribution calendar as an oblique field of glass cuboids. Each day is one column; orange tint and height follow GitHub activity levels. Clear low bases mean zero activity. Source dates, total, and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
 </picture>
 
 <br>

@@ -98,7 +98,9 @@ export function calendarLayout(data, mobile = false) {
   data.days.forEach(day => weeks[Math.floor((+new Date(day.date) - start) / DAY / 7)].push(day));
   const chunks = mobile ? [weeks.slice(0, 27), weeks.slice(27)] : [weeks];
   const width = mobile ? 400 : 960;
-  const height = mobile ? 760 : 520;
+  // The README heading names the section, so the panel carries figures only.
+  const headerBottom = mobile ? 97 : 91.5;
+  const height = mobile ? 683 : 488;
   const x0 = mobile ? 35 : 60;
   const dayStep = mobile ? [4.8, 14] : [7.7, 18];
   const stepX = (width - x0 - (mobile ? 22 : 36) - 6 * dayStep[0] - (mobile ? 12 : 16)) / (Math.max(...chunks.map(chunk => chunk.length)) - 1);
@@ -109,7 +111,7 @@ export function calendarLayout(data, mobile = false) {
   const bx = mobile ? 4.1 : 5.6;
   const by = mobile ? 5.8 : 8.2;
   const panels = chunks.map((chunk, panelIndex) => {
-    const top = mobile ? 213 + panelIndex * 221 : 151;
+    const top = mobile ? 136 + panelIndex * 221 : 119;
     const y0 = top + heightScale(29) - (chunk.length - 1) * stepY;
     const marks = chunk.flatMap((week, weekIndex) => week.map(day => {
       const h = heightScale(GLASS_HEIGHTS[day.level]);
@@ -117,13 +119,13 @@ export function calendarLayout(data, mobile = false) {
     })).sort((a, b) => a.y - b.y || a.x - b.x);
     return { chunk, top, x0, y0, stepX, stepY, dayStep, marks };
   });
-  return { width, height, panels };
+  return { width, height, headerBottom, panels };
 }
 
 export function renderCalendar(data, theme = 'light', mobile = false, animated = true) {
   const p = themes[theme];
   if (!p) throw new Error('Unknown theme');
-  const { width, height, panels } = calendarLayout(data, mobile);
+  const { width, height, headerBottom, panels } = calendarLayout(data, mobile);
   const pad = mobile ? 26 : 32;
   const font = mobile ? 15 : 13;
   const parts = [];
@@ -142,18 +144,16 @@ export function renderCalendar(data, theme = 'light', mobile = false, animated =
   });
   parts.push('</defs>');
   parts.push(`<style>text{font-family:Arial,Helvetica,sans-serif;fill:${p.fg};font-size:${font}px} .muted{fill:${p.muted}} .mono{font-family:Menlo,Consolas,monospace} .day{opacity:1}${animated ? '@media(prefers-reduced-motion:no-preference){.day{animation:reveal .75s ease-out both;animation-delay:var(--delay)}}@keyframes reveal{from{opacity:.4}to{opacity:1}}' : ''}</style><rect width="100%" height="100%" fill="url(#paper-light)"/><rect width="100%" height="100%" filter="url(#paper-grain)" opacity=".025"/>`);
-  text(pad, 33, 'FIELD NOTES / ACTIVITY', `class="mono muted" font-size="${mobile ? 13 : 11}" letter-spacing="1.8"`);
-  text(pad, 80, 'A Year in Motion.', `style="font-size:${mobile ? 32 : 34}px;font-weight:700;letter-spacing:-1px"`);
   if (mobile) {
-    text(pad, 125, integer.format(data.total), 'style="font-size:32px;font-weight:700;letter-spacing:-1px"');
-    text(137, 124, 'contributions', 'class="muted"');
-    text(pad, 153, `${dateLabel(data.from)} — ${dateLabel(data.to)}`, 'class="muted" style="font-size:14px"');
+    text(pad, 48, integer.format(data.total), 'style="font-size:32px;font-weight:700;letter-spacing:-1px"');
+    text(137, 47, 'contributions', 'class="muted"');
+    text(pad, 76, `${dateLabel(data.from)} — ${dateLabel(data.to)}`, 'class="muted" style="font-size:14px"');
   } else {
-    text(width - pad, 77, integer.format(data.total), 'text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px"');
-    text(width - pad, 99, 'contributions', 'text-anchor="end" class="muted"');
-    text(pad, 105, `${dateLabel(data.from)} — ${dateLabel(data.to)}`, 'class="muted"');
+    text(width - pad, 48, integer.format(data.total), 'text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px"');
+    text(width - pad, 70, 'contributions', 'text-anchor="end" class="muted"');
+    text(pad, 70, `${dateLabel(data.from)} — ${dateLabel(data.to)}`, 'class="muted"');
   }
-  parts.push(`<path d="M${pad} ${mobile ? 174 : 123}.5H${width - pad}" stroke="${p.rule}" stroke-width="1"/>`);
+  parts.push(`<path d="M${pad} ${headerBottom}H${width - pad}" stroke="${p.rule}" stroke-width="1"/>`);
   panels.forEach((panel, panelIndex) => {
     const { chunk, top, x0, y0, stepX, stepY, dayStep, marks } = panel;
     if (mobile) text(pad, top - 16, `${dateLabel(chunk[0][0].date)} — ${dateLabel(chunk.at(-1).at(-1).date)}`, 'class="muted" style="font-size:12.5px"');
@@ -183,7 +183,7 @@ export function renderCalendar(data, theme = 'light', mobile = false, animated =
       previousMonth = monthKey;
     });
   });
-  const bottom = mobile ? 665 : 456;
+  const bottom = height - (mobile ? 95 : 64);
   const legendX = mobile ? 112 : 727;
   text(legendX - 36, bottom, 'Less', 'class="muted" style="font-size:12px"');
   GLASS_HEIGHTS.forEach((_, i) => parts.push(`<use href="#glass-key-${i}" transform="translate(${legendX + i * 29} ${bottom - 7})" aria-hidden="true"/>`));
