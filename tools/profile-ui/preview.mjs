@@ -39,7 +39,7 @@ http.createServer((req,res)=>{
   const reduce=url.searchParams.get('motion')==='reduce';
   let body=rendered.replaceAll('"./assets/','"/assets/');
   // GitHub adds this heading anchor after its Markdown API stage.
-  body=body.replace(/<h2([^>]*)>Selected Public Builds<\/h2>/,'<h2$1 id="selected-public-builds">Selected Public Builds</h2>');
+  body=body.replace(/<h2([^>]*)>For the Fun of It\.<\/h2>/,'<h2$1 id="for-the-fun-of-it">For the Fun of It.</h2>');
   body=body.replaceAll('(prefers-color-scheme: '+theme+')','(min-width: 0px)').replaceAll('(prefers-color-scheme: '+(theme==='dark'?'light':'dark')+')','(max-width: 0px)');
   if(reduce){
     body=body.replaceAll('(prefers-reduced-motion: reduce)','(min-width: 0px)').replace(/(\/assets\/ui\/[^" ]+\.svg)/g,'$1?motion=reduce');

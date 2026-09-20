@@ -12,7 +12,7 @@ What decides the outcome is the gap between a working demo and a system people d
 
 <p>
   <a href="https://www.yixuanhe.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-portfolio-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-portfolio-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-portfolio-dark.svg"><img src="./assets/ui/nav-portfolio-light.svg" alt="Portfolio" width="33.333333%"></picture></a><!--
-  --><a href="#selected-public-builds"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-builds-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-builds-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-builds-dark.svg"><img src="./assets/ui/nav-builds-light.svg" alt="Explore the Builds" width="33.333333%"></picture></a><!--
+  --><a href="#for-the-fun-of-it"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-builds-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-builds-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-builds-dark.svg"><img src="./assets/ui/nav-builds-light.svg" alt="Explore the Builds" width="33.333333%"></picture></a><!--
   --><a href="https://www.linkedin.com/in/yixuanhe2/"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-linkedin-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-linkedin-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-linkedin-dark.svg"><img src="./assets/ui/nav-linkedin-light.svg" alt="LinkedIn" width="33.333333%"></picture></a>
 </p>
 
@@ -55,7 +55,7 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
   </tr>
 </table>
 
-## Selected Public Builds
+## For the Fun of It.
 
 Different domains. The same habit: connect intelligence to something people can actually use.
 

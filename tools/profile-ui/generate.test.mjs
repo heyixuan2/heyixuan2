@@ -31,8 +31,8 @@ test('README removes auxiliary links and uses designed controls for every text C
   const md=readFileSync(new URL('../../README.md', import.meta.url),'utf8');
   assert.ok(!/Artwork editions|Prefer stillness|Change appearance|Static light|Static dark|\[View portfolio/.test(md));
   assert.ok(md.includes('## Built for Enterprise Realities.'));
-  assert.ok(md.includes('## Selected Public Builds'));
-  assert.ok(md.includes('href="#selected-public-builds"'));
+  assert.ok(md.includes('## For the Fun of It.'));
+  assert.ok(md.includes('href="#for-the-fun-of-it"'));
   for(const c of controls.filter(c=>['portfolio','builds','linkedin','bambu','ashare'].includes(c.id))) assert.ok(md.includes(`./assets/ui/${['portfolio','builds','linkedin'].includes(c.id)?'nav-':''}${c.id}-light.svg`),c.id);
   assert.equal((md.match(/<details(?:\s[^>]*)?>/g)||[]).length,0);
   assert.equal((md.match(/<summary>/g)||[]).length,0);
@@ -40,7 +40,7 @@ test('README removes auxiliary links and uses designed controls for every text C
 
 test('private work shows named systems as unlinked cards', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  const section=md.split('## Featured Projects.')[1].split('## Selected Public Builds')[0];
+  const section=md.split('## Featured Projects.')[1].split('## For the Fun of It.')[0];
   assert.ok(!/<details|<summary|From Discovery to Delivery|assets\/ui\/discovery-/.test(section));
   // The private cards deliberately carry no link: the work lives behind the firewall.
   assert.ok(!/<a\s/.test(section));
@@ -52,7 +52,7 @@ test('private work shows named systems as unlinked cards', () => {
 
 test('project descriptions are always visible and linked title cards match artwork width', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  const table=md.split('## Selected Public Builds')[1].match(/<table>[\s\S]*?<\/table>/)[0];
+  const table=md.split('## For the Fun of It.')[1].match(/<table>[\s\S]*?<\/table>/)[0];
   assert.ok(!/<details|<summary|Engineering Notes|Explore Project/.test(table));
   assert.ok(table.includes('<strong>From an Idea to a Physical Object.</strong>'));
   assert.ok(table.includes('<strong>Finding Signal in Financial Time Series.</strong>'));
@@ -66,7 +66,7 @@ test('project descriptions are always visible and linked title cards match artwo
 
 test('private project artwork matches public covers with local light and dark variants', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  const section=md.split('## Featured Projects.')[1].split('## Selected Public Builds')[0];
+  const section=md.split('## Featured Projects.')[1].split('## For the Fun of It.')[0];
   assert.equal((section.match(/<img[^>]*width="100%"/g)||[]).length,4);
   assert.ok(!/artwork slot|<img[^>]*height=|<a\s/.test(section));
   for(const slug of ['mbods','talent']) {
