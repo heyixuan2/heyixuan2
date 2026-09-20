@@ -57,7 +57,7 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
 
 ## For the Fun of It.
 
-Nobody asked for either of these. One ends in a physical object, the other in a probability, and both stopped in the same place: not at a model that scores well in a notebook, but at something a person can run.
+Curiosity projects, taken further than they needed to go. One ends in a physical object, the other in a probability — neither stopped at the notebook.
 
 <table>
   <tr>
