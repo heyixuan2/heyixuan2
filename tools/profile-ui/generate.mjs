@@ -10,6 +10,8 @@ export const controls = [
   { id: 'linkedin', label: 'LinkedIn', note: 'Let’s Connect', icon: 'linkedin', width: 232, height: 76, primary: true },
   { id: 'bambu', label: 'Bambu Studio AI', note: '01 / Physical Intelligence', icon: 'cube', width: 380, height: 88, project: true },
   { id: 'ashare', label: 'A-Share Neural Network', note: '02 / Finding Signal', icon: 'signal', width: 380, height: 88, project: true },
+  { id: 'mbods', label: 'MBODS', note: 'Private / Evidence-Backed Diagnosis', icon: 'route', width: 380, height: 88, project: true, compactNote: 'Private / Diagnosis', compactLines: ['MBODS'] },
+  { id: 'fitwise', label: 'HR Fitwise', note: 'Private / Recruiting Intelligence', icon: 'person', width: 380, height: 88, project: true, compactNote: 'Private / Recruiting', compactLines: ['HR', 'Fitwise'] },
   { id: 'project', label: 'Explore Project', icon: 'arrow', width: 216, height: 48 },
   { id: 'discovery', label: 'From Discovery to Delivery', icon: 'route', width: 300, height: 54, disclosure: true },
   { id: 'notes', label: 'Engineering Notes', icon: 'notes', width: 280, height: 48, disclosure: true },
@@ -83,11 +85,13 @@ export function renderCompact(id, theme) {
   const p=themes[theme];
   const notes=id==='notes';
   const h=notes?52:96;
-  const lines=id==='bambu'?['Bambu','Studio AI']:['A-Share','Neural Network'];
+  const lines=c.compactLines??(id==='bambu'?['Bambu','Studio AI']:['A-Share','Neural Network']);
+  const note=c.compactNote??(id==='bambu'?'01 / Build':'02 / Research');
+  const size2=c.compactSize??(id==='ashare'?21:25);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="180" height="${h}" viewBox="0 0 180 ${h}" role="img" aria-labelledby="title"><title id="title">${c.label}</title>
 <style>text{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:${p.ink};letter-spacing:-.5px}.trace{stroke-dasharray:90}@media(prefers-reduced-motion:no-preference){.trace{animation:trace 5.6s ease-in-out infinite}.rule{animation:rule 5.6s ease-in-out infinite}}@keyframes trace{0%,100%{stroke-dashoffset:0}40%{stroke-dashoffset:90}75%{stroke-dashoffset:0}}@keyframes rule{0%,100%{transform:translateX(0)}50%{transform:translateX(108px)}}</style>
 <rect x=".5" y=".5" width="179" height="${h-1}" rx="2" fill="${p.bg}" stroke="${p.line}"/>
-${notes?`<g transform="translate(12 11)">${icon('notes',p)}</g><text x="50" y="33" font-size="25">Notes</text>`:`<text x="12" y="21" font-size="9" style="font-family:Menlo,Consolas,monospace;font-weight:400;fill:${p.muted};letter-spacing:1px">${id==='bambu'?'01 / Build':'02 / Research'}</text><text x="12" y="48" font-size="25">${lines[0]}</text><text x="12" y="74" font-size="${id==='ashare'?21:25}">${lines[1]}</text>`}
+${notes?`<g transform="translate(12 11)">${icon('notes',p)}</g><text x="50" y="33" font-size="25">Notes</text>`:`<text x="12" y="21" font-size="9" style="font-family:Menlo,Consolas,monospace;font-weight:400;fill:${p.muted};letter-spacing:1px">${note}</text><text x="12" y="48" font-size="25">${lines[0]}</text>${lines[1]?`<text x="12" y="74" font-size="${size2}">${lines[1]}</text>`:''}`}
 <path d="M12 ${h-4}h156" stroke="${p.line}"/><path class="rule" d="M12 ${h-4}h36" stroke="${p.accent}" stroke-width="2"/>
 </svg>\n`;
 }
@@ -123,7 +127,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.a
   for (const c of controls) for (const theme of Object.keys(themes)) {
     await writeFile(path.join(out, `${c.id}-${theme}.svg`), renderControl(c, theme));
   }
-  for (const id of ['bambu','ashare','notes']) for (const theme of Object.keys(themes)) {
+  for (const id of ['bambu','ashare','notes','mbods','fitwise']) for (const theme of Object.keys(themes)) {
     await writeFile(path.join(out, `${id}-${theme}-mobile.svg`), renderCompact(id, theme));
   }
   for (const id of ['portfolio','builds','linkedin']) for (const theme of Object.keys(themes)) for (const compact of [false,true]) {

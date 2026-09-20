@@ -18,7 +18,7 @@ test('all controls are accessible, self-contained, motion-aware SVGs', () => {
 });
 
 test('compact project controls keep meaningful labels and theme parity', () => {
-  for (const id of ['bambu','ashare','notes']) for (const theme of ['light','dark']) {
+  for (const id of ['bambu','ashare','notes','mbods','fitwise']) for (const theme of ['light','dark']) {
     const svg=renderCompact(id,theme);
     assert.ok(svg.includes(controls.find(c=>c.id===id).label));
     assert.ok(svg.includes('prefers-reduced-motion:no-preference'));
@@ -30,7 +30,7 @@ test('compact project controls keep meaningful labels and theme parity', () => {
 test('README removes auxiliary links and uses designed controls for every text CTA', () => {
   const md=readFileSync(new URL('../../README.md', import.meta.url),'utf8');
   assert.ok(!/Artwork editions|Prefer stillness|Change appearance|Static light|Static dark|\[View portfolio/.test(md));
-  assert.ok(md.includes('## From Idea to MVP. Built for Enterprise Realities.'));
+  assert.ok(md.includes('## Built for Enterprise Realities.'));
   assert.ok(md.includes('## Selected Public Builds'));
   assert.ok(md.includes('href="#selected-public-builds"'));
   for(const c of controls.filter(c=>['portfolio','builds','linkedin','bambu','ashare'].includes(c.id))) assert.ok(md.includes(`./assets/ui/${['portfolio','builds','linkedin'].includes(c.id)?'nav-':''}${c.id}-light.svg`),c.id);
@@ -38,19 +38,22 @@ test('README removes auxiliary links and uses designed controls for every text C
   assert.equal((md.match(/<summary>/g)||[]).length,0);
 });
 
-test('enterprise delivery principles are inline without a disclosure card', () => {
+test('private work shows named systems as unlinked cards', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
   const section=md.split('## Enterprise AI, Built End to End.')[1].split('## Selected Public Builds')[0];
   assert.ok(!/<details|<summary|From Discovery to Delivery|assets\/ui\/discovery-/.test(section));
-  for(const label of ['Problem Framing.','Rapid Delivery.','End-to-End Engineering.','Enterprise Judgment.']) {
-    assert.ok(section.includes(`**${label}**`));
+  // The private cards deliberately carry no link: the work lives behind the firewall.
+  assert.ok(!/<a\s/.test(section));
+  for(const [slug,label] of [['mbods','MBODS'],['fitwise','HR Fitwise']]) {
+    assert.ok(section.includes(`./assets/ui/${slug}-light.svg`),slug);
+    assert.ok(section.includes(`alt="${label}" width="100%"`),label);
   }
   assert.ok(section.includes('The implementation stays private.'));
 });
 
 test('project descriptions are always visible and linked title cards match artwork width', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  const table=md.match(/<table>[\s\S]*?<\/table>/)[0];
+  const table=md.split('## Selected Public Builds')[1].match(/<table>[\s\S]*?<\/table>/)[0];
   assert.ok(!/<details|<summary|Engineering Notes|Explore Project/.test(table));
   assert.ok(table.includes('<strong>From an Idea to a Physical Object.</strong>'));
   assert.ok(table.includes('<strong>Finding Signal in Financial Time Series.</strong>'));
@@ -68,11 +71,14 @@ test('background credentials remain without the deferred personal sections', () 
   assert.ok(!/About the Builder|How I Work|Open the Toolbox|Beyond the Demo/.test(md));
   assert.ok(!/assets\/ui\/(?:about|principles|toolbox)-/.test(md));
   const afterCredentials=md.slice(md.indexOf('**Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**'));
-  assert.match(afterCredentials,/^\*\*Mercedes-Benz · Georgetown DSAN · Cornell M\.Eng\.\*\*<br>\nSystems thinking, from the model to the last mile\.\n\n## Building, One Day at a Time\./);
+  assert.match(afterCredentials,/^\*\*Mercedes-Benz · Georgetown DSAN · Cornell M\.Eng\.\*\*<br>\nSystems thinking, from the model to the last mile\.\n\n## What I Build With\n/);
+  assert.ok(afterCredentials.includes('## Building, One Day at a Time.'));
 });
 
-test('footer closes with artwork without repeating primary links', () => {
+test('closing contact section precedes the footer artwork', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
+  assert.ok(md.includes('## Let\'s Talk'));
+  assert.ok(md.includes('mailto:heyixuan001204@gmail.com'));
   assert.equal((md.match(/alt="Portfolio"/g)||[]).length,1);
   assert.equal((md.match(/alt="LinkedIn"/g)||[]).length,1);
   assert.match(md, /<picture>\s*<source[^>]*field-notes-footer-dark\.jpg[\s\S]*?alt="Make complexity legible\."[^>]*>\s*<\/picture>\s*$/);
