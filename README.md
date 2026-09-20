@@ -33,16 +33,16 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
     <td width="50%" valign="top">
       <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
       <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/org-diagnosis-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/org-diagnosis-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/org-diagnosis-dark.svg"><img src="./assets/ui/org-diagnosis-light.svg" alt="MB Org Diagnosis" width="100%"></picture></h3>
-      <p>An enterprise AI transformation platform — any process, any function.</p>
-      <p><strong>From Unstructured Documents to Organizational Change.</strong> Parses the documents a process already runs on into a verified BPMN map, designs the AI-native future state, then issues the implementation plan and the workforce change required to reach it.</p>
-      <p>Every score and FTE figure carries its sources, its method, and its approver. A live pilot with its first real users, now being engineered toward production.</p>
+      <p>An enterprise AI transformation platform for any process, in any function.</p>
+      <p><strong>From Unstructured Documents to Organizational Change.</strong> Parses source documents into a verified BPMN map, designs the AI-native future state, and issues the implementation plan and workforce impact.</p>
+      <p>Every score and FTE figure carries its source, method, and approver. A live pilot with its first users, now being engineered toward production.</p>
     </td>
     <td width="50%" valign="top">
       <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
       <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/talent-platform-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/talent-platform-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/talent-platform-dark.svg"><img src="./assets/ui/talent-platform-light.svg" alt="Talent Platform" width="100%"></picture></h3>
       <p>A full-lifecycle talent acquisition platform.</p>
-      <p><strong>The Whole Hiring Lifecycle in One Record.</strong> Job descriptions, resumes, interview materials, and transcripts become a single track per candidate — competency models, candidate comparison, generated interview questions, AI interviews, and AI-assisted scoring.</p>
-      <p>Next: resume sourcing, and an AI recruiter that finds candidates instead of waiting for them. It supports the hiring decision; it does not make it.</p>
+      <p><strong>Tracked and Supported at Every Stage.</strong> Consolidates job descriptions, resumes, interview materials, and transcripts into a single candidate record: competency models, candidate comparison, generated interview questions, AI interviews, and AI-assisted scoring.</p>
+      <p>On the roadmap: an AI recruiter that sources candidates rather than waiting for applications. It supports the hiring decision; it does not make it.</p>
     </td>
   </tr>
 </table>
