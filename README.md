@@ -57,7 +57,7 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
 
 ## For the Fun of It.
 
-Curiosity projects, taken further than they needed to go. One ends in a physical object, the other in a probability — neither stopped at the notebook.
+Built in my own time. I hope you enjoy them — and if you want to build on one, or just talk about it, I'd be glad to hear from you.
 
 <table>
   <tr>
