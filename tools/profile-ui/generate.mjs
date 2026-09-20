@@ -10,8 +10,8 @@ export const controls = [
   { id: 'linkedin', label: 'LinkedIn', note: 'Let’s Connect', icon: 'linkedin', width: 232, height: 76, primary: true },
   { id: 'bambu', label: 'Bambu Studio AI', note: '01 / Physical Intelligence', icon: 'cube', width: 380, height: 88, project: true },
   { id: 'ashare', label: 'A-Share Neural Network', note: '02 / Finding Signal', icon: 'signal', width: 380, height: 88, project: true },
-  { id: 'mbods', label: 'MBODS', note: 'Private / Evidence-Backed Diagnosis', icon: 'route', width: 380, height: 88, project: true, compactNote: 'Private / Diagnosis', compactLines: ['MBODS'] },
-  { id: 'fitwise', label: 'HR Fitwise', note: 'Private / Recruiting Intelligence', icon: 'person', width: 380, height: 88, project: true, compactNote: 'Private / Recruiting', compactLines: ['HR', 'Fitwise'] },
+  { id: 'org-diagnosis', label: 'MB Org Diagnosis', note: 'Private / Evidence-Backed Diagnosis', icon: 'route', width: 380, height: 88, project: true, compactNote: 'Private / Diagnosis', compactLines: ['MB Org', 'Diagnosis'] },
+  { id: 'talent-platform', label: 'Talent Platform', note: 'Private / Recruiting Intelligence', icon: 'person', width: 380, height: 88, project: true, compactNote: 'Private / Recruiting', compactLines: ['Talent', 'Platform'] },
   { id: 'project', label: 'Explore Project', icon: 'arrow', width: 216, height: 48 },
   { id: 'discovery', label: 'From Discovery to Delivery', icon: 'route', width: 300, height: 54, disclosure: true },
   { id: 'notes', label: 'Engineering Notes', icon: 'notes', width: 280, height: 48, disclosure: true },
@@ -127,7 +127,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.a
   for (const c of controls) for (const theme of Object.keys(themes)) {
     await writeFile(path.join(out, `${c.id}-${theme}.svg`), renderControl(c, theme));
   }
-  for (const id of ['bambu','ashare','notes','mbods','fitwise']) for (const theme of Object.keys(themes)) {
+  for (const id of ['bambu','ashare','notes','org-diagnosis','talent-platform']) for (const theme of Object.keys(themes)) {
     await writeFile(path.join(out, `${id}-${theme}-mobile.svg`), renderCompact(id, theme));
   }
   for (const id of ['portfolio','builds','linkedin']) for (const theme of Object.keys(themes)) for (const compact of [false,true]) {

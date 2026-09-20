@@ -32,14 +32,14 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
   <tr>
     <td width="50%" valign="top">
       <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
-      <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/mbods-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/mbods-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/mbods-dark.svg"><img src="./assets/ui/mbods-light.svg" alt="MBODS" width="100%"></picture></h3>
+      <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/org-diagnosis-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/org-diagnosis-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/org-diagnosis-dark.svg"><img src="./assets/ui/org-diagnosis-light.svg" alt="MB Org Diagnosis" width="100%"></picture></h3>
       <p>Evidence-backed AI diagnosis for HR and organization development.</p>
       <p><strong>Every Number Traces Back.</strong> Each score, verdict, and FTE figure carries its source, its method, and the person who approved it. An original framework rates a process step's automation potential and flags whether to enhance, reinvent, disrupt, or streamline it.</p>
       <p>A live pilot with its first real users, now being engineered toward production.</p>
     </td>
     <td width="50%" valign="top">
       <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
-      <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/fitwise-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/fitwise-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/fitwise-dark.svg"><img src="./assets/ui/fitwise-light.svg" alt="HR Fitwise" width="100%"></picture></h3>
+      <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/talent-platform-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/talent-platform-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/talent-platform-dark.svg"><img src="./assets/ui/talent-platform-light.svg" alt="Talent Platform" width="100%"></picture></h3>
       <p>An internal recruiting assistant for HR and hiring managers.</p>
       <p><strong>From Job Description to Hiring Decision.</strong> Turns job descriptions, resumes, interview materials, and assessment notes into one structured workflow: competency models, candidate comparison, generated interview questions, and transcript-based assessments.</p>
       <p>It supports the hiring decision; it does not make it.</p>

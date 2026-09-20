@@ -18,7 +18,7 @@ test('all controls are accessible, self-contained, motion-aware SVGs', () => {
 });
 
 test('compact project controls keep meaningful labels and theme parity', () => {
-  for (const id of ['bambu','ashare','notes','mbods','fitwise']) for (const theme of ['light','dark']) {
+  for (const id of ['bambu','ashare','notes','org-diagnosis','talent-platform']) for (const theme of ['light','dark']) {
     const svg=renderCompact(id,theme);
     assert.ok(svg.includes(controls.find(c=>c.id===id).label));
     assert.ok(svg.includes('prefers-reduced-motion:no-preference'));
@@ -44,7 +44,7 @@ test('private work shows named systems as unlinked cards', () => {
   assert.ok(!/<details|<summary|From Discovery to Delivery|assets\/ui\/discovery-/.test(section));
   // The private cards deliberately carry no link: the work lives behind the firewall.
   assert.ok(!/<a\s/.test(section));
-  for(const [slug,label] of [['mbods','MBODS'],['fitwise','HR Fitwise']]) {
+  for(const [slug,label] of [['org-diagnosis','MB Org Diagnosis'],['talent-platform','Talent Platform']]) {
     assert.ok(section.includes(`./assets/ui/${slug}-light.svg`),slug);
     assert.ok(section.includes(`alt="${label}" width="100%"`),label);
   }

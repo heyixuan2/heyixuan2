@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="380" height="88" viewBox="0 0 380 88" role="img" aria-labelledby="title desc">
-<title id="title">MBODS</title><desc id="desc">Open MBODS. Orange editorial linework animates; text remains still. Motion follows your system preference.</desc>
+<title id="title">Talent Platform</title><desc id="desc">Open Talent Platform. Orange editorial linework animates; text remains still. Motion follows your system preference.</desc>
 <defs><clipPath id="frame"><rect x=".5" y=".5" width="379" height="87" rx="2"/></clipPath><linearGradient id="wash"><stop stop-color="#332820" stop-opacity="0"/><stop offset=".5" stop-color="#332820" stop-opacity=".7"/><stop offset="1" stop-color="#332820" stop-opacity="0"/></linearGradient></defs>
 <style>
 text{font-family:Arial,Helvetica,sans-serif;fill:#f3efe6}.label{font-weight:900;letter-spacing:-.65px}.note{font-family:Menlo,Consolas,monospace;fill:#bcb3a7;letter-spacing:.65px;font-size:8.5px}.orbit{transform-origin:14px 14px}.travel{transform:translateX(-460px)}
@@ -16,9 +16,9 @@ text{font-family:Arial,Helvetica,sans-serif;fill:#f3efe6}.label{font-weight:900;
 @keyframes layer2{0%,30%,90%,100%{transform:translateY(0)}55%{transform:translateY(-4px)}}
 </style>
 <g clip-path="url(#frame)"><rect width="380" height="88" fill="#191a1b"/><rect class="travel" x="140" width="100" height="88" fill="url(#wash)"/><path d="M18 84H362" stroke="#41403c"/><path d="M18 84h44" stroke="#ff7b43" stroke-width="2"/><path class="travel" d="M146 84h88" stroke="#ff7b43" stroke-width="2"/>
-<text class="note" x="18" y="24">Private / Evidence-Backed Diagnosis</text>
-<text class="label" x="18" y="59" font-size="25">MBODS</text>
-<g transform="translate(332 31)"><g fill="none" stroke="#ff7b43" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h8V7h12" opacity=".4"/><path class="trace" d="M4 21h8V7h12"/><circle cx="4" cy="21" r="2.5" fill="#191a1b"/><circle class="beacon" cx="24" cy="7" r="2.5" fill="#ff7b43"/></g></g>
+<text class="note" x="18" y="24">Private / Recruiting Intelligence</text>
+<text class="label" x="18" y="59" font-size="25">Talent Platform</text>
+<g transform="translate(332 31)"><g fill="none" stroke="#ff7b43" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="9" r="4.5"/><path d="M5 26v-4c0-7 18-7 18 0v4"/><path class="trace" d="M2 6V2h5M21 2h5v5M26 22v4h-5M7 26H2v-5"/></g></g>
 
 </g><rect x=".5" y=".5" width="379" height="87" rx="2" fill="none" stroke="#41403c"/>
 </svg>
