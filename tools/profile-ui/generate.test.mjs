@@ -40,7 +40,7 @@ test('README removes auxiliary links and uses designed controls for every text C
 
 test('private work shows named systems as unlinked cards', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  const section=md.split('## Enterprise AI, Built End to End.')[1].split('## Selected Public Builds')[0];
+  const section=md.split('## Featured Projects.')[1].split('## Selected Public Builds')[0];
   assert.ok(!/<details|<summary|From Discovery to Delivery|assets\/ui\/discovery-/.test(section));
   // The private cards deliberately carry no link: the work lives behind the firewall.
   assert.ok(!/<a\s/.test(section));
@@ -48,7 +48,6 @@ test('private work shows named systems as unlinked cards', () => {
     assert.ok(section.includes(`./assets/ui/${slug}-light.svg`),slug);
     assert.ok(section.includes(`alt="${label}" width="100%"`),label);
   }
-  assert.ok(section.includes('The implementation stays private.'));
 });
 
 test('project descriptions are always visible and linked title cards match artwork width', () => {

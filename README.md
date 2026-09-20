@@ -24,7 +24,7 @@ What decides the outcome is the gap between a working demo and a system people d
   <img src="./assets/profile-motion-light.gif" alt="From idea to MVP: clarify the idea, build the MVP, learn and iterate. Fast to first value. Built for real use." width="100%">
 </picture>
 
-## Enterprise AI, Built End to End.
+## Featured Projects.
 
 At Mercedes-Benz, I'm the sole developer of an internal platform for **AI transformation**: turning business-process ideas into solution plans a team can act on. The ideas and business context are shaped with the team; the engineering is mine.
 
@@ -46,10 +46,6 @@ At Mercedes-Benz, I'm the sole developer of an internal platform for **AI transf
     </td>
   </tr>
 </table>
-
-Alongside these, I architected a multi-agent talent-intelligence pipeline with a task-specific model-selection framework, spanning internal mobility, skill-gap analysis, and market-trend forecasting.
-
-The implementation stays private. No internal screenshots, system details, or company data are published here.
 
 ## Selected Public Builds
 
