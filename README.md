@@ -26,7 +26,7 @@ What decides the outcome is the gap between a working demo and a system people d
 
 ## Featured Projects.
 
-At Mercedes-Benz, I'm the sole developer of an internal platform for **AI transformation**: turning business-process ideas into solution plans a team can act on. The ideas and business context are shaped with the team; the engineering is mine.
+Enterprise applications I've built at Mercedes-Benz as the sole developer. The business context is shaped with the team; the engineering is mine. These run internally, so only the concept is shared here — not the code, the screenshots, or the data.
 
 <table>
   <tr>
