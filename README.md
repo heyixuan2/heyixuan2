@@ -40,9 +40,9 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
     <td width="50%" valign="top">
       <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
       <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/talent-platform-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/talent-platform-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/talent-platform-dark.svg"><img src="./assets/ui/talent-platform-light.svg" alt="Talent Platform" width="100%"></picture></h3>
-      <p>An internal recruiting assistant for HR and hiring managers.</p>
-      <p><strong>From Job Description to Hiring Decision.</strong> Turns job descriptions, resumes, interview materials, and assessment notes into one structured workflow: competency models, candidate comparison, generated interview questions, and transcript-based assessments.</p>
-      <p>It supports the hiring decision; it does not make it.</p>
+      <p>A full-lifecycle talent acquisition platform.</p>
+      <p><strong>The Whole Hiring Lifecycle in One Record.</strong> Job descriptions, resumes, interview materials, and transcripts become a single track per candidate — competency models, candidate comparison, generated interview questions, AI-assisted interviewing, and scoring.</p>
+      <p>Talent pooling and candidate sourcing are under discussion. It supports the hiring decision; it does not make it.</p>
     </td>
   </tr>
 </table>
