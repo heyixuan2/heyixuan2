@@ -146,12 +146,12 @@ export function renderCalendar(data, theme = 'light', mobile = false, animated =
   parts.push(`<style>text{font-family:Arial,Helvetica,sans-serif;fill:${p.fg};font-size:${font}px} .muted{fill:${p.muted}} .mono{font-family:Menlo,Consolas,monospace} .day{opacity:1}${animated ? '@media(prefers-reduced-motion:no-preference){.day{animation:reveal .75s ease-out both;animation-delay:var(--delay)}}@keyframes reveal{from{opacity:.4}to{opacity:1}}' : ''}</style><rect width="100%" height="100%" fill="url(#paper-light)"/><rect width="100%" height="100%" filter="url(#paper-grain)" opacity=".025"/>`);
   if (mobile) {
     text(pad, 48, integer.format(data.total), 'style="font-size:32px;font-weight:700;letter-spacing:-1px"');
-    text(137, 47, 'contributions', 'class="muted"');
+    text(137, 47, 'Contributions', 'class="muted"');
     text(pad, 76, `${dateLabel(data.from)} — ${dateLabel(data.to)}`, 'class="muted" style="font-size:14px"');
   } else {
-    text(width - pad, 48, integer.format(data.total), 'text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px"');
-    text(width - pad, 70, 'contributions', 'text-anchor="end" class="muted"');
-    text(pad, 70, `${dateLabel(data.from)} — ${dateLabel(data.to)}`, 'class="muted"');
+    text(width - pad, 50, integer.format(data.total), 'text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px"');
+    text(width - pad, 72, 'Contributions', 'text-anchor="end" class="muted"');
+    text(pad, 50, `${dateLabel(data.from)} — ${dateLabel(data.to)}`, 'class="muted"');
   }
   parts.push(`<path d="M${pad} ${headerBottom}H${width - pad}" stroke="${p.rule}" stroke-width="1"/>`);
   panels.forEach((panel, panelIndex) => {
