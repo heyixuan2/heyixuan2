@@ -57,7 +57,7 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
 
 ## For the Fun of It.
 
-Built in my own time. I hope you enjoy them — and if you want to build on one, or just talk about it, I'd be glad to hear from you.
+Built on nights and weekends, for no reason except that I wanted them to exist. I hope you enjoy them. Fork one, break it, tell me I got something wrong — or just say hi. I'd be glad to hear from you.
 
 <table>
   <tr>
