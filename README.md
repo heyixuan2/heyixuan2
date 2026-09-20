@@ -57,7 +57,7 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
 
 ## For the Fun of It.
 
-Built on nights and weekends, for no reason except that I wanted them to exist. I hope you enjoy them. Fork one, break it, tell me I got something wrong — or just say hi. I'd be glad to hear from you.
+Built on nights and weekends, for no reason except that I wanted them to exist. I hope you enjoy them. Fork one, break it, tell me I got something wrong — or just say hi. And if you're building something open that looks like fun, count me in.
 
 <table>
   <tr>
