@@ -31,14 +31,22 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
 <table>
   <tr>
     <td width="50%" valign="top">
-      <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/field-notes-mbods-dark.jpg">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/field-notes-mbods-light.jpg">
+        <img src="./assets/field-notes-mbods-light.jpg" alt="Concept illustration: glass process blocks and an orange path on a drafting desk, representing organizational transformation. Not an internal system screenshot." width="100%">
+      </picture>
       <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/org-diagnosis-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/org-diagnosis-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/org-diagnosis-dark.svg"><img src="./assets/ui/org-diagnosis-light.svg" alt="MB Org Diagnosis" width="100%"></picture></h3>
       <p>An enterprise AI transformation platform for any process, in any function.</p>
       <p><strong>From Unstructured Documents to Organizational Change.</strong> Parses source documents into a verified BPMN map, designs the AI-native future state, and issues the implementation plan and workforce impact.</p>
       <p>Every score and FTE figure carries its source, method, and approver. A live pilot with its first users, now being engineered toward production.</p>
     </td>
     <td width="50%" valign="top">
-      <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/field-notes-talent-dark.jpg">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/field-notes-talent-light.jpg">
+        <img src="./assets/field-notes-talent-light.jpg" alt="Concept illustration: ivory profile cards and glass dividers on a drafting desk, representing a connected talent lifecycle. No real candidate data is shown." width="100%">
+      </picture>
       <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/talent-platform-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/talent-platform-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/talent-platform-dark.svg"><img src="./assets/ui/talent-platform-light.svg" alt="Talent Platform" width="100%"></picture></h3>
       <p>A full-lifecycle talent acquisition platform.</p>
       <p><strong>Tracked and Supported at Every Stage.</strong> Consolidates job descriptions, resumes, interview materials, and transcripts into a single candidate record: competency models, candidate comparison, generated interview questions, AI interviews, and AI-assisted scoring.</p>

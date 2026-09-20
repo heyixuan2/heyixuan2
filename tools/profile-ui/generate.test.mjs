@@ -64,6 +64,24 @@ test('project descriptions are always visible and linked title cards match artwo
   }
 });
 
+test('private project artwork matches public covers with local light and dark variants', () => {
+  const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
+  const section=md.split('## Featured Projects.')[1].split('## Selected Public Builds')[0];
+  assert.equal((section.match(/<img[^>]*width="100%"/g)||[]).length,4);
+  assert.ok(!/artwork slot|<img[^>]*height=|<a\s/.test(section));
+  for(const slug of ['mbods','talent']) {
+    for(const theme of ['light','dark']) {
+      const file=`assets/field-notes-${slug}-${theme}.jpg`;
+      assert.ok(section.includes(`media="(prefers-color-scheme: ${theme})" srcset="./${file}"`));
+      const image=readFileSync(new URL(`../../${file}`,import.meta.url));
+      assert.ok(image.length>1000,`${file} is not empty`);
+      assert.equal(image.readUInt16BE(0),0xffd8,`${file} is a JPEG`);
+    }
+    assert.ok(section.indexOf(`field-notes-${slug}-light.jpg`)<section.indexOf(`assets/ui/${slug==='mbods'?'org-diagnosis':'talent-platform'}-light.svg`));
+  }
+  assert.equal((section.match(/alt="Concept illustration:/g)||[]).length,2);
+});
+
 test('background credentials remain without the deferred personal sections', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
   assert.ok(md.includes('**Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**'));
