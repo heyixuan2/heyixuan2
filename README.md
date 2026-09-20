@@ -26,7 +26,7 @@ What decides the outcome is the gap between a working demo and a system people d
 
 ## Featured Projects.
 
-Enterprise applications I built at Mercedes-Benz as the primary developer. The business context is shaped with the team; the architecture and implementation are mine. These systems run internally, so only the concept is shared here — not the code, screenshots, or data.
+Enterprise applications I built at Mercedes-Benz as the primary developer. The business context and requirements are shaped with the team. These systems run internally, so only the concept is shared here — not the code, screenshots, or data.
 
 <table>
   <tr>
