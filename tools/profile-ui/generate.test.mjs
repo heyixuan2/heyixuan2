@@ -87,8 +87,14 @@ test('the page carries no personal-background or toolbox sections', () => {
   assert.ok(!/About the Builder|How I Work|Open the Toolbox|Beyond the Demo/.test(md));
   assert.ok(!/assets\/ui\/(?:about|principles|toolbox)-/.test(md));
   assert.ok(!/Mercedes-Benz · Georgetown DSAN|## What I Build With|Tools & Approaches/.test(md));
-  // The work sections run straight into the contribution chart.
-  assert.match(md,/<\/table>\n\n## Contribution History\./);
+  // Activity sets the rhythm, the work follows, and the open-source
+  // invitation is the last thing read before the closing artwork.
+  assert.deepEqual(md.match(/^## .+$/gm), [
+    '## Built for Enterprise Realities.',
+    '## Contribution History.',
+    '## Featured Projects.',
+    '## For the Fun of It.',
+  ]);
 });
 
 test('footer closes with artwork and no contact block', () => {

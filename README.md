@@ -24,6 +24,22 @@ What decides the outcome is the gap between a working demo and a system people d
   <img src="./assets/profile-motion-light.gif" alt="From idea to MVP: clarify the idea, build the MVP, learn and iterate. Fast to first value. Built for real use." width="100%">
 </picture>
 
+## Contribution History.
+
+<!-- generated from the unauthenticated public calendar; never from private repository details -->
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-dark-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-light-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/contributions-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-light-static.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-dark-mobile.svg">
+  <source media="(max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
+  <img alt="Yixuan's real GitHub contribution calendar as an oblique field of glass cuboids. Each day is one column; orange tint and height follow GitHub activity levels. Clear low bases mean zero activity. Source dates, total, and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
+</picture>
+
+<br>
+
 ## Featured Projects.
 
 Enterprise applications I built at Mercedes-Benz as the primary developer. The business context and requirements are shaped with the team. These systems run internally, so only the concept is shared here — not the code, screenshots, or data.
@@ -89,22 +105,6 @@ Built on nights and weekends, for no reason except that I wanted them to exist. 
     </td>
   </tr>
 </table>
-
-## Contribution History.
-
-<!-- generated from the unauthenticated public calendar; never from private repository details -->
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-dark-mobile-static.svg">
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-light-mobile-static.svg">
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/contributions-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-light-static.svg">
-  <source media="(prefers-color-scheme: dark) and (max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-dark-mobile.svg">
-  <source media="(max-width: 1100px) and (orientation: portrait)" srcset="./assets/contributions-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
-  <img alt="Yixuan's real GitHub contribution calendar as an oblique field of glass cuboids. Each day is one column; orange tint and height follow GitHub activity levels. Clear low bases mean zero activity. Source dates, total, and update date are printed in the graphic." src="./assets/contributions-light.svg" width="100%">
-</picture>
-
-<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/field-notes-footer-dark.jpg">
