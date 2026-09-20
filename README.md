@@ -4,11 +4,11 @@
   <img src="./assets/field-notes-hero-light-v2.jpg" alt="Yixuan He. From what if. To what works. AI engineering, rapid prototyping, and enterprise delivery." width="100%">
 </picture>
 
-## From Idea to MVP. Built for Enterprise Realities.
+## Built for Enterprise Realities.
 
-I turn ambiguous business ideas into **working AI products** — connecting the problem, the people, and the engineering needed to make them useful.
+I build **AI products inside large organizations**, where the model is rarely the hard part.
 
-A **forward-deployed mindset**: get close to the work, build the first useful version quickly, and keep going beyond the demo. Fast to first value; thoughtful about reliability, access, and the human workflow.
+What decides the outcome is the gap between a working demo and a system people depend on. **Forward-deployed** work means owning that gap — and it's the work I'm looking for.
 
 <p>
   <a href="https://www.yixuanhe.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/nav-portfolio-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/nav-portfolio-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/nav-portfolio-dark.svg"><img src="./assets/ui/nav-portfolio-light.svg" alt="Portfolio" width="33.333333%"></picture></a><!--
