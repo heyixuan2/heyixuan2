@@ -33,9 +33,9 @@ Enterprise applications I built at Mercedes-Benz as the primary developer. The b
     <td width="50%" valign="top">
       <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
       <h3><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/org-diagnosis-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/org-diagnosis-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/org-diagnosis-dark.svg"><img src="./assets/ui/org-diagnosis-light.svg" alt="MB Org Diagnosis" width="100%"></picture></h3>
-      <p>Evidence-backed AI diagnosis for HR and organization development.</p>
-      <p><strong>Every Number Traces Back.</strong> Each score, verdict, and FTE figure carries its source, its method, and the person who approved it. An original framework rates a process step's automation potential and flags whether to enhance, reinvent, disrupt, or streamline it.</p>
-      <p>A live pilot with its first real users, now being engineered toward production.</p>
+      <p>Decision support for AI transformation, built for HR, organization development, and business teams.</p>
+      <p><strong>From Procedure Documents to a Funded Roadmap.</strong> Maps how a process runs today, scores where AI can change it, then issues the target operating model, the delivery projects required to reach it, and the workforce impact — people and AI agents on one capacity view.</p>
+      <p>Every score and FTE figure carries its sources, its method, and its approver: planning estimates a person can defend, not decisions the system makes. A live pilot with its first real users, now being engineered toward production.</p>
     </td>
     <td width="50%" valign="top">
       <!-- artwork slot: add <picture> with light/dark pair here, same shape as the public build cards -->
