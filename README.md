@@ -70,9 +70,9 @@ Built on nights and weekends, for no reason except that I wanted them to exist. 
         </picture>
       </a>
       <h3><a href="https://github.com/heyixuan2/bambu-studio-ai"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/bambu-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/bambu-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/bambu-dark.svg"><img src="./assets/ui/bambu-light.svg" alt="Bambu Studio AI" width="100%"></picture></a></h3>
-      <p>An end-to-end AI workflow for Bambu Lab 3D printers.</p>
-      <p><strong>From an Idea to a Physical Object.</strong> Search, generate, analyze, repair, and preview in one workflow. Review and start the print in Bambu Studio; the agent monitors it read-only.</p>
-      <p>Bringing the reasoning layer and the physical toolchain into one usable system.</p>
+      <p>An agent skill that turns a sentence into a finished 3D print.</p>
+      <p><strong>From an Idea to a Physical Object.</strong> Finds or generates the model, checks printability, repairs the mesh, previews the result. You review and start the print in Bambu Studio; the agent only watches.</p>
+      <p>Featured by Bambu Lab in their 2026 Skill Showcase. MIT licensed, and it runs inside Claude Code, Codex, Cursor, and 60-plus other agents.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/heyixuan2/ashare-neural-network">
@@ -83,8 +83,8 @@ Built on nights and weekends, for no reason except that I wanted them to exist. 
         </picture>
       </a>
       <h3><a href="https://github.com/heyixuan2/ashare-neural-network"><picture><source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="./assets/ui/ashare-dark-mobile.svg"><source media="(max-width: 700px)" srcset="./assets/ui/ashare-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/ui/ashare-dark.svg"><img src="./assets/ui/ashare-light.svg" alt="A-Share Neural Network" width="100%"></picture></a></h3>
-      <p>Hybrid LSTM–Transformer research for A-share forecasting.</p>
-      <p><strong>Finding Signal in Financial Time Series.</strong> A hybrid architecture with 49-dimensional features, temporal splitting, and ensemble training.</p>
+      <p>An LSTM–Transformer ensemble estimating whether an A-share stock closes up tomorrow.</p>
+      <p><strong>Finding Signal in Financial Time Series.</strong> Roughly 3 million sequences from 5,800 stocks, with market, sector, margin, and northbound-flow features. Ten models train on walk-forward splits, and permutation importance sorts the useful features from the harmful ones.</p>
       <p>A modeling and evaluation project, not a claim of investment performance.</p>
     </td>
   </tr>
