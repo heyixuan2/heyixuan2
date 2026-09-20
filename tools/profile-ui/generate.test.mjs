@@ -82,20 +82,18 @@ test('private project artwork matches public covers with local light and dark va
   assert.equal((section.match(/alt="Concept illustration:/g)||[]).length,2);
 });
 
-test('background credentials remain without the deferred personal sections', () => {
+test('the page carries no personal-background or toolbox sections', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  assert.ok(md.includes('**Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**'));
   assert.ok(!/About the Builder|How I Work|Open the Toolbox|Beyond the Demo/.test(md));
   assert.ok(!/assets\/ui\/(?:about|principles|toolbox)-/.test(md));
-  const afterCredentials=md.slice(md.indexOf('**Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**'));
-  assert.match(afterCredentials,/^\*\*Mercedes-Benz · Georgetown DSAN · Cornell M\.Eng\.\*\*<br>\nSystems thinking, from the model to the last mile\.\n\n## What I Build With\n/);
-  assert.ok(afterCredentials.includes('## Building, One Day at a Time.'));
+  assert.ok(!/Mercedes-Benz · Georgetown DSAN|## What I Build With|Tools & Approaches/.test(md));
+  // The work sections run straight into the contribution chart.
+  assert.match(md,/<\/table>\n\n## Building, One Day at a Time\./);
 });
 
-test('closing contact section precedes the footer artwork', () => {
+test('footer closes with artwork and no contact block', () => {
   const md=readFileSync(new URL('../../README.md',import.meta.url),'utf8');
-  assert.ok(md.includes('## Let\'s Talk'));
-  assert.ok(md.includes('mailto:heyixuan001204@gmail.com'));
+  assert.ok(!/## Let's Talk|mailto:|Résumé/.test(md));
   assert.equal((md.match(/alt="Portfolio"/g)||[]).length,1);
   assert.equal((md.match(/alt="LinkedIn"/g)||[]).length,1);
   assert.match(md, /<picture>\s*<source[^>]*field-notes-footer-dark\.jpg[\s\S]*?alt="Make complexity legible\."[^>]*>\s*<\/picture>\s*$/);

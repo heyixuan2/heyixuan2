@@ -90,18 +90,6 @@ Built on nights and weekends, for no reason except that I wanted them to exist. 
   </tr>
 </table>
 
-**Mercedes-Benz · Georgetown DSAN · Cornell M.Eng.**<br>
-Systems thinking, from the model to the last mile.
-
-## What I Build With
-
-| Discipline | Tools & Approaches |
-| :--- | :--- |
-| **AI Systems** | LLM workflows · RAG · AI agents · Dify · Transformers · Deep learning |
-| **AI-Assisted Development** | Claude Code · Cursor · Agentic development |
-| **Engineering** | Python · R · SQL · PostgreSQL · MongoDB · Data modeling |
-| **Delivery** | Docker · AWS EC2 · Vercel · Cloudflare · Tencent Cloud · Tailscale |
-
 ## Building, One Day at a Time.
 
 <!-- generated from the unauthenticated public calendar; never from private repository details -->
@@ -117,12 +105,6 @@ Systems thinking, from the model to the last mile.
 </picture>
 
 <br>
-
-## Let's Talk
-
-I'm always glad to talk about forward-deployed work.
-
-**[heyixuan001204@gmail.com](mailto:heyixuan001204@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/yixuanhe2/)** · **[Résumé](https://www.yixuanhe.com/assets/Yixuan_He_Resume.pdf)** · **[Portfolio](https://www.yixuanhe.com)**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/field-notes-footer-dark.jpg">
