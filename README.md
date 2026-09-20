@@ -28,9 +28,14 @@ What decides the outcome is the gap between a working demo and a system people d
 
 At Mercedes-Benz, I'm the sole developer of an internal platform for **AI transformation**: turning business-process ideas into solution plans a team can act on. The ideas and business context are shaped with the team; the engineering is mine.
 
-- Took the platform from proof of concept to a live pilot with its first real users, and am engineering it toward production — the hardening, review, and access work an internal rollout actually requires.
-- Designed an original scoring framework that rates each business-process step's automation potential and flags whether to enhance, reinvent, disrupt, or streamline it.
-- Re-engineered a Dify-based resume-screening prototype into a standalone application through agentic development. It cleared IT code review and shipped containerized with Docker for **company-wide pilot testing**.
+**Process Diagnosis and Redesign.**
+Diagnoses a business process and generates an AI-native redesign roadmap. An original scoring framework rates each step's automation potential and flags whether to enhance, reinvent, disrupt, or streamline it. Now a live pilot with its first real users, and being engineered toward production — the hardening, review, and access work an internal rollout actually requires.
+
+**Resume Screening, Prototype to Pilot.**
+Built the original LLM workflow on Dify, orchestrating extraction, cleansing, and job-description matching to score and rank candidates. Re-engineered it into a standalone application through agentic development; it cleared IT code review and shipped containerized with Docker for **company-wide pilot testing**.
+
+**Talent Intelligence.**
+Architected a multi-agent pipeline with a task-specific model-selection framework, spanning internal mobility, skill-gap analysis, and market-trend forecasting.
 
 The implementation stays private. No internal screenshots, system details, or company data are published here.
 
