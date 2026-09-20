@@ -88,7 +88,7 @@ test('the page carries no personal-background or toolbox sections', () => {
   assert.ok(!/assets\/ui\/(?:about|principles|toolbox)-/.test(md));
   assert.ok(!/Mercedes-Benz · Georgetown DSAN|## What I Build With|Tools & Approaches/.test(md));
   // The work sections run straight into the contribution chart.
-  assert.match(md,/<\/table>\n\n## Building, One Day at a Time\./);
+  assert.match(md,/<\/table>\n\n## Contribution History\./);
 });
 
 test('footer closes with artwork and no contact block', () => {

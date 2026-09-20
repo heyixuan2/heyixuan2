@@ -90,7 +90,7 @@ Built on nights and weekends, for no reason except that I wanted them to exist. 
   </tr>
 </table>
 
-## Building, One Day at a Time.
+## Contribution History.
 
 <!-- generated from the unauthenticated public calendar; never from private repository details -->
 <picture>
