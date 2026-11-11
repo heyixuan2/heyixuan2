@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="488" viewBox="0 0 960 488" role="img" aria-labelledby="title desc"><title id="title">Yixuan He — 12,826 contributions</title><desc id="desc">Publicly visible GitHub calendar, 2025-11-09 to 2026-11-10. One glass cuboid per day. Orange tint and height both encode GitHub's five ordinal activity levels, not a linear count scale. Clear low plinths mark zero-contribution days. Exact daily counts remain in this SVG and the adjacent JSON data. Activity is not a measure of impact. Days reveal in chronological week order once, then hold. Reduced motion shows the final state.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="488" viewBox="0 0 960 488" role="img" aria-labelledby="title desc"><title id="title">Yixuan He — 13,204 contributions</title><desc id="desc">Publicly visible GitHub calendar, 2025-11-09 to 2026-11-11. One glass cuboid per day. Orange tint and height both encode GitHub's five ordinal activity levels, not a linear count scale. Clear low plinths mark zero-contribution days. Exact daily counts remain in this SVG and the adjacent JSON data. Activity is not a measure of impact. Days reveal in chronological week order once, then hold. Reduced motion shows the final state.</desc>
 <defs><linearGradient id="front-0" x1="0" y1="0" x2="1" y2=".12">
 <stop stop-color="#b1a797" stop-opacity="0.45"/><stop offset=".1" stop-color="#fffaf0" stop-opacity="0.55"/>
 <stop offset=".2" stop-color="#b1a797" stop-opacity="0.36000000000000004"/><stop offset=".55" stop-color="#b1a797" stop-opacity="0.30600000000000005"/>
@@ -152,9 +152,9 @@
 <path d="M0,0L6,8 18,6" fill="none" stroke="#fff6e7" stroke-opacity=".7" stroke-width=".7"/></g>
 </defs>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#171717;font-size:13px} .muted{fill:#615d56} .mono{font-family:Menlo,Consolas,monospace} .day{opacity:1}@media(prefers-reduced-motion:no-preference){.day{animation:reveal .75s ease-out both;animation-delay:var(--delay)}}@keyframes reveal{from{opacity:.4}to{opacity:1}}</style><rect width="100%" height="100%" fill="url(#paper-light)"/><rect width="100%" height="100%" filter="url(#paper-grain)" opacity=".025"/>
-<text x="928" y="50" text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px">12,826</text>
+<text x="928" y="50" text-anchor="end" style="font-size:38px;font-weight:700;letter-spacing:-1px">13,204</text>
 <text x="928" y="72" text-anchor="end" class="muted">Contributions</text>
-<text x="32" y="50" class="muted">Nov 9, 2025 — Nov 10, 2026</text>
+<text x="32" y="50" class="muted">Nov 9, 2025 — Nov 11, 2026</text>
 <path d="M32 91.5H928" stroke="#d4cfc5" stroke-width="1"/>
 <g class="ground-shadows" filter="url(#soft-shadow)" aria-hidden="true">
 <polygon transform="translate(861.8 148)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -162,14 +162,14 @@
 <polygon transform="translate(830.96 153.24)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(815.54 155.86)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(800.12 158.49)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(784.7 161.11)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(769.28 163.73)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(784.7 161.11)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(769.28 163.73)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(869.5 166)" points="0,0 9.41,-1.6 27.49,21.54 33.09,29.74 23.68,31.34 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(753.87 166.35)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(753.87 166.35)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(854.08 168.62)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(738.45 168.97)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(838.66 171.24)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(723.03 171.59)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(723.03 171.59)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(823.24 173.86)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(707.61 174.21)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(807.82 176.49)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -178,7 +178,7 @@
 <polygon transform="translate(676.77 179.46)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(776.98 181.73)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(661.35 182.08)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(877.2 184)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(877.2 184)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(761.57 184.35)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(645.93 184.7)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(861.78 186.62)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -193,12 +193,13 @@
 <polygon transform="translate(815.52 194.49)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(699.89 194.83)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(584.25 195.18)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(800.1 197.11)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(800.1 197.11)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(684.47 197.46)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(568.83 197.8)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(784.68 199.73)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(669.05 200.08)" points="0,0 9.41,-1.6 24.37,17.58 29.97,25.78 20.56,27.38 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(784.68 199.73)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(669.05 200.08)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(553.42 200.43)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(884.9 202)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(769.27 202.35)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(653.63 202.7)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(538 203.05)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -260,7 +261,7 @@
 <polygon transform="translate(568.82 236.43)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(453.18 236.77)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(337.55 237.12)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(784.67 238.35)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(784.67 238.35)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(669.03 238.7)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(553.4 239.05)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(437.76 239.4)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -283,7 +284,7 @@
 <polygon transform="translate(507.14 246.91)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(391.5 247.26)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(275.87 247.61)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(838.62 248.49)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(838.62 248.49)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(722.99 248.83)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(607.35 249.18)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(491.72 249.53)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -308,8 +309,8 @@
 <polygon transform="translate(329.83 257.74)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(214.19 258.09)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(892.58 258.62)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(776.95 258.97)" points="0,0 9.41,-1.6 24.37,17.58 29.97,25.78 20.56,27.38 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(661.31 259.32)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(776.95 258.97)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(661.31 259.32)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(545.68 259.67)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(430.04 260.02)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(314.41 260.37)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -335,14 +336,14 @@
 <polygon transform="translate(383.78 267.88)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(268.15 268.23)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(152.52 268.58)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(830.9 269.11)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(830.9 269.11)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(715.27 269.46)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(599.63 269.8)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(484 270.15)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(368.37 270.5)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(252.73 270.85)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(137.1 271.2)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(815.48 271.73)" points="0,0 9.41,-1.6 24.37,17.58 29.97,25.78 20.56,27.38 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(815.48 271.73)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(699.85 272.08)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(584.22 272.43)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(468.58 272.77)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -364,7 +365,7 @@
 <polygon transform="translate(206.47 278.71)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(90.84 279.06)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(769.23 279.59)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(653.59 279.94)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(653.59 279.94)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(537.96 280.29)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(422.32 280.64)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(306.69 280.99)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -389,7 +390,7 @@
 <polygon transform="translate(376.07 288.5)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(260.43 288.85)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(144.8 289.2)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
-<polygon transform="translate(707.55 290.08)" points="0,0 9.41,-1.6 24.37,17.58 29.97,25.78 20.56,27.38 5.6,8.2" fill="url(#ground-shadow)"/>
+<polygon transform="translate(707.55 290.08)" points="0,0 9.41,-1.6 21.25,13.62 26.85,21.82 17.44,23.42 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(591.92 290.43)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(476.28 290.77)" points="0,0 9.41,-1.6 18.13,9.66 23.73,17.86 14.32,19.46 5.6,8.2" fill="url(#ground-shadow)"/>
 <polygon transform="translate(360.65 291.12)" points="0,0 9.41,-1.6 15.01,5.7 20.61,13.9 11.2,15.5 5.6,8.2" fill="url(#ground-shadow)"/>
@@ -530,14 +531,14 @@
 <g class="day" transform="translate(830.96 153.24)" style="--delay:2.750s" data-date="2026-10-25" data-count="198" data-level="2" data-height="17"><title>2026-10-25: 198 contributions</title><use href="#glass-day-2"/></g>
 <g class="day" transform="translate(815.54 155.86)" style="--delay:2.695s" data-date="2026-10-18" data-count="137" data-level="1" data-height="11"><title>2026-10-18: 137 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(800.12 158.49)" style="--delay:2.640s" data-date="2026-10-11" data-count="70" data-level="1" data-height="11"><title>2026-10-11: 70 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(784.7 161.11)" style="--delay:2.585s" data-date="2026-10-04" data-count="179" data-level="2" data-height="17"><title>2026-10-04: 179 contributions</title><use href="#glass-day-2"/></g>
-<g class="day" transform="translate(769.28 163.73)" style="--delay:2.530s" data-date="2026-09-27" data-count="171" data-level="2" data-height="17"><title>2026-09-27: 171 contributions</title><use href="#glass-day-2"/></g>
-<g class="day" transform="translate(869.5 166)" style="--delay:2.860s" data-date="2026-11-09" data-count="590" data-level="4" data-height="29"><title>2026-11-09: 590 contributions</title><use href="#glass-day-4"/></g>
-<g class="day" transform="translate(753.87 166.35)" style="--delay:2.475s" data-date="2026-09-20" data-count="180" data-level="2" data-height="17"><title>2026-09-20: 180 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(784.7 161.11)" style="--delay:2.585s" data-date="2026-10-04" data-count="179" data-level="1" data-height="11"><title>2026-10-04: 179 contributions</title><use href="#glass-day-1"/></g>
+<g class="day" transform="translate(769.28 163.73)" style="--delay:2.530s" data-date="2026-09-27" data-count="171" data-level="1" data-height="11"><title>2026-09-27: 171 contributions</title><use href="#glass-day-1"/></g>
+<g class="day" transform="translate(869.5 166)" style="--delay:2.860s" data-date="2026-11-09" data-count="728" data-level="4" data-height="29"><title>2026-11-09: 728 contributions</title><use href="#glass-day-4"/></g>
+<g class="day" transform="translate(753.87 166.35)" style="--delay:2.475s" data-date="2026-09-20" data-count="180" data-level="1" data-height="11"><title>2026-09-20: 180 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(854.08 168.62)" style="--delay:2.805s" data-date="2026-11-02" data-count="108" data-level="1" data-height="11"><title>2026-11-02: 108 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(738.45 168.97)" style="--delay:2.420s" data-date="2026-09-13" data-count="1" data-level="1" data-height="11"><title>2026-09-13: 1 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(838.66 171.24)" style="--delay:2.750s" data-date="2026-10-26" data-count="28" data-level="1" data-height="11"><title>2026-10-26: 28 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(723.03 171.59)" style="--delay:2.365s" data-date="2026-09-06" data-count="161" data-level="2" data-height="17"><title>2026-09-06: 161 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(723.03 171.59)" style="--delay:2.365s" data-date="2026-09-06" data-count="161" data-level="1" data-height="11"><title>2026-09-06: 161 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(823.24 173.86)" style="--delay:2.695s" data-date="2026-10-19" data-count="187" data-level="2" data-height="17"><title>2026-10-19: 187 contributions</title><use href="#glass-day-2"/></g>
 <g class="day" transform="translate(707.61 174.21)" style="--delay:2.310s" data-date="2026-08-30" data-count="135" data-level="1" data-height="11"><title>2026-08-30: 135 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(807.82 176.49)" style="--delay:2.640s" data-date="2026-10-12" data-count="99" data-level="1" data-height="11"><title>2026-10-12: 99 contributions</title><use href="#glass-day-1"/></g>
@@ -546,7 +547,7 @@
 <g class="day" transform="translate(676.77 179.46)" style="--delay:2.200s" data-date="2026-08-16" data-count="62" data-level="1" data-height="11"><title>2026-08-16: 62 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(776.98 181.73)" style="--delay:2.530s" data-date="2026-09-28" data-count="104" data-level="1" data-height="11"><title>2026-09-28: 104 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(661.35 182.08)" style="--delay:2.145s" data-date="2026-08-09" data-count="0" data-level="0" data-height="5"><title>2026-08-09: 0 contributions</title><use href="#glass-day-0"/></g>
-<g class="day" transform="translate(877.2 184)" style="--delay:2.860s" data-date="2026-11-10" data-count="0" data-level="0" data-height="5"><title>2026-11-10: 0 contributions</title><use href="#glass-day-0"/></g>
+<g class="day" transform="translate(877.2 184)" style="--delay:2.860s" data-date="2026-11-10" data-count="240" data-level="2" data-height="17"><title>2026-11-10: 240 contributions</title><use href="#glass-day-2"/></g>
 <g class="day" transform="translate(761.57 184.35)" style="--delay:2.475s" data-date="2026-09-21" data-count="86" data-level="1" data-height="11"><title>2026-09-21: 86 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(645.93 184.7)" style="--delay:2.090s" data-date="2026-08-02" data-count="3" data-level="1" data-height="11"><title>2026-08-02: 3 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(861.78 186.62)" style="--delay:2.805s" data-date="2026-11-03" data-count="33" data-level="1" data-height="11"><title>2026-11-03: 33 contributions</title><use href="#glass-day-1"/></g>
@@ -561,12 +562,13 @@
 <g class="day" transform="translate(815.52 194.49)" style="--delay:2.640s" data-date="2026-10-13" data-count="126" data-level="1" data-height="11"><title>2026-10-13: 126 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(699.89 194.83)" style="--delay:2.255s" data-date="2026-08-24" data-count="27" data-level="1" data-height="11"><title>2026-08-24: 27 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(584.25 195.18)" style="--delay:1.870s" data-date="2026-07-05" data-count="24" data-level="1" data-height="11"><title>2026-07-05: 24 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(800.1 197.11)" style="--delay:2.585s" data-date="2026-10-06" data-count="155" data-level="2" data-height="17"><title>2026-10-06: 155 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(800.1 197.11)" style="--delay:2.585s" data-date="2026-10-06" data-count="155" data-level="1" data-height="11"><title>2026-10-06: 155 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(684.47 197.46)" style="--delay:2.200s" data-date="2026-08-17" data-count="48" data-level="1" data-height="11"><title>2026-08-17: 48 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(568.83 197.8)" style="--delay:1.815s" data-date="2026-06-28" data-count="1" data-level="1" data-height="11"><title>2026-06-28: 1 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(784.68 199.73)" style="--delay:2.530s" data-date="2026-09-29" data-count="154" data-level="2" data-height="17"><title>2026-09-29: 154 contributions</title><use href="#glass-day-2"/></g>
-<g class="day" transform="translate(669.05 200.08)" style="--delay:2.145s" data-date="2026-08-10" data-count="355" data-level="3" data-height="23"><title>2026-08-10: 355 contributions</title><use href="#glass-day-3"/></g>
+<g class="day" transform="translate(784.68 199.73)" style="--delay:2.530s" data-date="2026-09-29" data-count="154" data-level="1" data-height="11"><title>2026-09-29: 154 contributions</title><use href="#glass-day-1"/></g>
+<g class="day" transform="translate(669.05 200.08)" style="--delay:2.145s" data-date="2026-08-10" data-count="355" data-level="2" data-height="17"><title>2026-08-10: 355 contributions</title><use href="#glass-day-2"/></g>
 <g class="day" transform="translate(553.42 200.43)" style="--delay:1.760s" data-date="2026-06-21" data-count="0" data-level="0" data-height="5"><title>2026-06-21: 0 contributions</title><use href="#glass-day-0"/></g>
+<g class="day" transform="translate(884.9 202)" style="--delay:2.860s" data-date="2026-11-11" data-count="0" data-level="0" data-height="5"><title>2026-11-11: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(769.27 202.35)" style="--delay:2.475s" data-date="2026-09-22" data-count="133" data-level="1" data-height="11"><title>2026-09-22: 133 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(653.63 202.7)" style="--delay:2.090s" data-date="2026-08-03" data-count="8" data-level="1" data-height="11"><title>2026-08-03: 8 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(538 203.05)" style="--delay:1.705s" data-date="2026-06-14" data-count="2" data-level="1" data-height="11"><title>2026-06-14: 2 contributions</title><use href="#glass-day-1"/></g>
@@ -628,7 +630,7 @@
 <g class="day" transform="translate(568.82 236.43)" style="--delay:1.760s" data-date="2026-06-23" data-count="0" data-level="0" data-height="5"><title>2026-06-23: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(453.18 236.77)" style="--delay:1.375s" data-date="2026-05-04" data-count="11" data-level="1" data-height="11"><title>2026-05-04: 11 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(337.55 237.12)" style="--delay:0.990s" data-date="2026-03-15" data-count="1" data-level="1" data-height="11"><title>2026-03-15: 1 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(784.67 238.35)" style="--delay:2.475s" data-date="2026-09-24" data-count="179" data-level="2" data-height="17"><title>2026-09-24: 179 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(784.67 238.35)" style="--delay:2.475s" data-date="2026-09-24" data-count="179" data-level="1" data-height="11"><title>2026-09-24: 179 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(669.03 238.7)" style="--delay:2.090s" data-date="2026-08-05" data-count="64" data-level="1" data-height="11"><title>2026-08-05: 64 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(553.4 239.05)" style="--delay:1.705s" data-date="2026-06-16" data-count="12" data-level="1" data-height="11"><title>2026-06-16: 12 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(437.76 239.4)" style="--delay:1.320s" data-date="2026-04-27" data-count="0" data-level="0" data-height="5"><title>2026-04-27: 0 contributions</title><use href="#glass-day-0"/></g>
@@ -651,7 +653,7 @@
 <g class="day" transform="translate(507.14 246.91)" style="--delay:1.540s" data-date="2026-05-26" data-count="0" data-level="0" data-height="5"><title>2026-05-26: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(391.5 247.26)" style="--delay:1.155s" data-date="2026-04-06" data-count="4" data-level="1" data-height="11"><title>2026-04-06: 4 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(275.87 247.61)" style="--delay:0.770s" data-date="2026-02-15" data-count="4" data-level="1" data-height="11"><title>2026-02-15: 4 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(838.62 248.49)" style="--delay:2.640s" data-date="2026-10-16" data-count="177" data-level="2" data-height="17"><title>2026-10-16: 177 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(838.62 248.49)" style="--delay:2.640s" data-date="2026-10-16" data-count="177" data-level="1" data-height="11"><title>2026-10-16: 177 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(722.99 248.83)" style="--delay:2.255s" data-date="2026-08-27" data-count="0" data-level="0" data-height="5"><title>2026-08-27: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(607.35 249.18)" style="--delay:1.870s" data-date="2026-07-08" data-count="19" data-level="1" data-height="11"><title>2026-07-08: 19 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(491.72 249.53)" style="--delay:1.485s" data-date="2026-05-19" data-count="0" data-level="0" data-height="5"><title>2026-05-19: 0 contributions</title><use href="#glass-day-0"/></g>
@@ -676,8 +678,8 @@
 <g class="day" transform="translate(329.83 257.74)" style="--delay:0.935s" data-date="2026-03-09" data-count="3" data-level="1" data-height="11"><title>2026-03-09: 3 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(214.19 258.09)" style="--delay:0.550s" data-date="2026-01-18" data-count="0" data-level="0" data-height="5"><title>2026-01-18: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(892.58 258.62)" style="--delay:2.805s" data-date="2026-11-07" data-count="84" data-level="1" data-height="11"><title>2026-11-07: 84 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(776.95 258.97)" style="--delay:2.420s" data-date="2026-09-18" data-count="353" data-level="3" data-height="23"><title>2026-09-18: 353 contributions</title><use href="#glass-day-3"/></g>
-<g class="day" transform="translate(661.31 259.32)" style="--delay:2.035s" data-date="2026-07-30" data-count="162" data-level="2" data-height="17"><title>2026-07-30: 162 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(776.95 258.97)" style="--delay:2.420s" data-date="2026-09-18" data-count="353" data-level="2" data-height="17"><title>2026-09-18: 353 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(661.31 259.32)" style="--delay:2.035s" data-date="2026-07-30" data-count="162" data-level="1" data-height="11"><title>2026-07-30: 162 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(545.68 259.67)" style="--delay:1.650s" data-date="2026-06-10" data-count="0" data-level="0" data-height="5"><title>2026-06-10: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(430.04 260.02)" style="--delay:1.265s" data-date="2026-04-21" data-count="0" data-level="0" data-height="5"><title>2026-04-21: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(314.41 260.37)" style="--delay:0.880s" data-date="2026-03-02" data-count="37" data-level="1" data-height="11"><title>2026-03-02: 37 contributions</title><use href="#glass-day-1"/></g>
@@ -703,14 +705,14 @@
 <g class="day" transform="translate(383.78 267.88)" style="--delay:1.100s" data-date="2026-03-31" data-count="0" data-level="0" data-height="5"><title>2026-03-31: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(268.15 268.23)" style="--delay:0.715s" data-date="2026-02-09" data-count="0" data-level="0" data-height="5"><title>2026-02-09: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(152.52 268.58)" style="--delay:0.330s" data-date="2025-12-21" data-count="0" data-level="0" data-height="5"><title>2025-12-21: 0 contributions</title><use href="#glass-day-0"/></g>
-<g class="day" transform="translate(830.9 269.11)" style="--delay:2.585s" data-date="2026-10-10" data-count="176" data-level="2" data-height="17"><title>2026-10-10: 176 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(830.9 269.11)" style="--delay:2.585s" data-date="2026-10-10" data-count="176" data-level="1" data-height="11"><title>2026-10-10: 176 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(715.27 269.46)" style="--delay:2.200s" data-date="2026-08-21" data-count="64" data-level="1" data-height="11"><title>2026-08-21: 64 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(599.63 269.8)" style="--delay:1.815s" data-date="2026-07-02" data-count="0" data-level="0" data-height="5"><title>2026-07-02: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(484 270.15)" style="--delay:1.430s" data-date="2026-05-13" data-count="0" data-level="0" data-height="5"><title>2026-05-13: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(368.37 270.5)" style="--delay:1.045s" data-date="2026-03-24" data-count="0" data-level="0" data-height="5"><title>2026-03-24: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(252.73 270.85)" style="--delay:0.660s" data-date="2026-02-02" data-count="0" data-level="0" data-height="5"><title>2026-02-02: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(137.1 271.2)" style="--delay:0.275s" data-date="2025-12-14" data-count="0" data-level="0" data-height="5"><title>2025-12-14: 0 contributions</title><use href="#glass-day-0"/></g>
-<g class="day" transform="translate(815.48 271.73)" style="--delay:2.530s" data-date="2026-10-03" data-count="299" data-level="3" data-height="23"><title>2026-10-03: 299 contributions</title><use href="#glass-day-3"/></g>
+<g class="day" transform="translate(815.48 271.73)" style="--delay:2.530s" data-date="2026-10-03" data-count="299" data-level="2" data-height="17"><title>2026-10-03: 299 contributions</title><use href="#glass-day-2"/></g>
 <g class="day" transform="translate(699.85 272.08)" style="--delay:2.145s" data-date="2026-08-14" data-count="135" data-level="1" data-height="11"><title>2026-08-14: 135 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(584.22 272.43)" style="--delay:1.760s" data-date="2026-06-25" data-count="2" data-level="1" data-height="11"><title>2026-06-25: 2 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(468.58 272.77)" style="--delay:1.375s" data-date="2026-05-06" data-count="11" data-level="1" data-height="11"><title>2026-05-06: 11 contributions</title><use href="#glass-day-1"/></g>
@@ -732,7 +734,7 @@
 <g class="day" transform="translate(206.47 278.71)" style="--delay:0.495s" data-date="2026-01-12" data-count="0" data-level="0" data-height="5"><title>2026-01-12: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(90.84 279.06)" style="--delay:0.110s" data-date="2025-11-23" data-count="0" data-level="0" data-height="5"><title>2025-11-23: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(769.23 279.59)" style="--delay:2.365s" data-date="2026-09-12" data-count="16" data-level="1" data-height="11"><title>2026-09-12: 16 contributions</title><use href="#glass-day-1"/></g>
-<g class="day" transform="translate(653.59 279.94)" style="--delay:1.980s" data-date="2026-07-24" data-count="155" data-level="2" data-height="17"><title>2026-07-24: 155 contributions</title><use href="#glass-day-2"/></g>
+<g class="day" transform="translate(653.59 279.94)" style="--delay:1.980s" data-date="2026-07-24" data-count="155" data-level="1" data-height="11"><title>2026-07-24: 155 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(537.96 280.29)" style="--delay:1.595s" data-date="2026-06-04" data-count="2" data-level="1" data-height="11"><title>2026-06-04: 2 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(422.32 280.64)" style="--delay:1.210s" data-date="2026-04-15" data-count="4" data-level="1" data-height="11"><title>2026-04-15: 4 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(306.69 280.99)" style="--delay:0.825s" data-date="2026-02-24" data-count="6" data-level="1" data-height="11"><title>2026-02-24: 6 contributions</title><use href="#glass-day-1"/></g>
@@ -757,7 +759,7 @@
 <g class="day" transform="translate(376.07 288.5)" style="--delay:1.045s" data-date="2026-03-25" data-count="0" data-level="0" data-height="5"><title>2026-03-25: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(260.43 288.85)" style="--delay:0.660s" data-date="2026-02-03" data-count="0" data-level="0" data-height="5"><title>2026-02-03: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(144.8 289.2)" style="--delay:0.275s" data-date="2025-12-15" data-count="0" data-level="0" data-height="5"><title>2025-12-15: 0 contributions</title><use href="#glass-day-0"/></g>
-<g class="day" transform="translate(707.55 290.08)" style="--delay:2.145s" data-date="2026-08-15" data-count="307" data-level="3" data-height="23"><title>2026-08-15: 307 contributions</title><use href="#glass-day-3"/></g>
+<g class="day" transform="translate(707.55 290.08)" style="--delay:2.145s" data-date="2026-08-15" data-count="307" data-level="2" data-height="17"><title>2026-08-15: 307 contributions</title><use href="#glass-day-2"/></g>
 <g class="day" transform="translate(591.92 290.43)" style="--delay:1.760s" data-date="2026-06-26" data-count="0" data-level="0" data-height="5"><title>2026-06-26: 0 contributions</title><use href="#glass-day-0"/></g>
 <g class="day" transform="translate(476.28 290.77)" style="--delay:1.375s" data-date="2026-05-07" data-count="1" data-level="1" data-height="11"><title>2026-05-07: 1 contributions</title><use href="#glass-day-1"/></g>
 <g class="day" transform="translate(360.65 291.12)" style="--delay:0.990s" data-date="2026-03-18" data-count="0" data-level="0" data-height="5"><title>2026-03-18: 0 contributions</title><use href="#glass-day-0"/></g>
@@ -916,5 +918,5 @@
 <use href="#glass-key-4" transform="translate(843 417)" aria-hidden="true"/>
 <text x="877" y="424" class="muted" style="font-size:12px">More</text>
 <path d="M32 440.5H928" stroke="#d4cfc5" stroke-width=".75"/>
-<text x="32" y="464" class="muted" style="font-size:11px">GitHub public calendar · updated 2026-11-10</text>
+<text x="32" y="464" class="muted" style="font-size:11px">GitHub public calendar · updated 2026-11-11</text>
 </svg>
