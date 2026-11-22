@@ -1,51 +1,9 @@
 {
   "source": "https://github.com/users/heyixuan2/contributions",
-  "from": "2025-11-16",
-  "to": "2026-11-21",
-  "total": 18297,
+  "from": "2025-11-23",
+  "to": "2026-11-22",
+  "total": 18831,
   "days": [
-    {
-      "date": "2025-11-16",
-      "count": 0,
-      "level": 0,
-      "weekday": 0
-    },
-    {
-      "date": "2025-11-17",
-      "count": 0,
-      "level": 0,
-      "weekday": 1
-    },
-    {
-      "date": "2025-11-18",
-      "count": 0,
-      "level": 0,
-      "weekday": 2
-    },
-    {
-      "date": "2025-11-19",
-      "count": 2,
-      "level": 1,
-      "weekday": 3
-    },
-    {
-      "date": "2025-11-20",
-      "count": 0,
-      "level": 0,
-      "weekday": 4
-    },
-    {
-      "date": "2025-11-21",
-      "count": 0,
-      "level": 0,
-      "weekday": 5
-    },
-    {
-      "date": "2025-11-22",
-      "count": 0,
-      "level": 0,
-      "weekday": 6
-    },
     {
       "date": "2025-11-23",
       "count": 0,
@@ -2214,22 +2172,28 @@
     },
     {
       "date": "2026-11-19",
-      "count": 456,
+      "count": 462,
       "level": 3,
       "weekday": 4
     },
     {
       "date": "2026-11-20",
-      "count": 175,
+      "count": 329,
       "level": 2,
       "weekday": 5
     },
     {
       "date": "2026-11-21",
+      "count": 376,
+      "level": 3,
+      "weekday": 6
+    },
+    {
+      "date": "2026-11-22",
       "count": 0,
       "level": 0,
-      "weekday": 6
+      "weekday": 0
     }
   ],
-  "updated": "2026-11-21T03:26:58.074Z"
+  "updated": "2026-11-22T03:27:55.498Z"
 }
