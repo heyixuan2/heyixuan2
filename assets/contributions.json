@@ -1,8 +1,8 @@
 {
   "source": "https://github.com/users/heyixuan2/contributions",
   "from": "2025-11-23",
-  "to": "2026-11-27",
-  "total": 21027,
+  "to": "2026-11-28",
+  "total": 22071,
   "days": [
     {
       "date": "2025-11-23",
@@ -1567,7 +1567,7 @@
     {
       "date": "2026-08-10",
       "count": 355,
-      "level": 3,
+      "level": 2,
       "weekday": 1
     },
     {
@@ -1681,7 +1681,7 @@
     {
       "date": "2026-08-29",
       "count": 236,
-      "level": 2,
+      "level": 1,
       "weekday": 6
     },
     {
@@ -1801,19 +1801,19 @@
     {
       "date": "2026-09-18",
       "count": 353,
-      "level": 3,
+      "level": 2,
       "weekday": 5
     },
     {
       "date": "2026-09-19",
       "count": 437,
-      "level": 3,
+      "level": 2,
       "weekday": 6
     },
     {
       "date": "2026-09-20",
       "count": 180,
-      "level": 2,
+      "level": 1,
       "weekday": 0
     },
     {
@@ -1837,7 +1837,7 @@
     {
       "date": "2026-09-24",
       "count": 179,
-      "level": 2,
+      "level": 1,
       "weekday": 4
     },
     {
@@ -1885,7 +1885,7 @@
     {
       "date": "2026-10-02",
       "count": 188,
-      "level": 2,
+      "level": 1,
       "weekday": 5
     },
     {
@@ -1897,13 +1897,13 @@
     {
       "date": "2026-10-04",
       "count": 179,
-      "level": 2,
+      "level": 1,
       "weekday": 0
     },
     {
       "date": "2026-10-05",
       "count": 233,
-      "level": 2,
+      "level": 1,
       "weekday": 1
     },
     {
@@ -1933,7 +1933,7 @@
     {
       "date": "2026-10-10",
       "count": 176,
-      "level": 2,
+      "level": 1,
       "weekday": 6
     },
     {
@@ -1957,7 +1957,7 @@
     {
       "date": "2026-10-14",
       "count": 232,
-      "level": 2,
+      "level": 1,
       "weekday": 3
     },
     {
@@ -1969,7 +1969,7 @@
     {
       "date": "2026-10-16",
       "count": 177,
-      "level": 2,
+      "level": 1,
       "weekday": 5
     },
     {
@@ -1987,7 +1987,7 @@
     {
       "date": "2026-10-19",
       "count": 187,
-      "level": 2,
+      "level": 1,
       "weekday": 1
     },
     {
@@ -2005,7 +2005,7 @@
     {
       "date": "2026-10-22",
       "count": 191,
-      "level": 2,
+      "level": 1,
       "weekday": 4
     },
     {
@@ -2023,7 +2023,7 @@
     {
       "date": "2026-10-25",
       "count": 198,
-      "level": 2,
+      "level": 1,
       "weekday": 0
     },
     {
@@ -2107,7 +2107,7 @@
     {
       "date": "2026-11-08",
       "count": 223,
-      "level": 2,
+      "level": 1,
       "weekday": 0
     },
     {
@@ -2125,7 +2125,7 @@
     {
       "date": "2026-11-11",
       "count": 664,
-      "level": 4,
+      "level": 3,
       "weekday": 3
     },
     {
@@ -2137,19 +2137,19 @@
     {
       "date": "2026-11-13",
       "count": 350,
-      "level": 3,
+      "level": 2,
       "weekday": 5
     },
     {
       "date": "2026-11-14",
       "count": 687,
-      "level": 4,
+      "level": 3,
       "weekday": 6
     },
     {
       "date": "2026-11-15",
       "count": 419,
-      "level": 3,
+      "level": 2,
       "weekday": 0
     },
     {
@@ -2161,19 +2161,19 @@
     {
       "date": "2026-11-17",
       "count": 221,
-      "level": 2,
+      "level": 1,
       "weekday": 2
     },
     {
       "date": "2026-11-18",
       "count": 529,
-      "level": 4,
+      "level": 3,
       "weekday": 3
     },
     {
       "date": "2026-11-19",
       "count": 462,
-      "level": 3,
+      "level": 2,
       "weekday": 4
     },
     {
@@ -2196,34 +2196,40 @@
     },
     {
       "date": "2026-11-23",
-      "count": 166,
+      "count": 171,
       "level": 1,
       "weekday": 1
     },
     {
       "date": "2026-11-24",
-      "count": 337,
+      "count": 340,
       "level": 2,
       "weekday": 2
     },
     {
       "date": "2026-11-25",
-      "count": 658,
-      "level": 4,
+      "count": 683,
+      "level": 3,
       "weekday": 3
     },
     {
       "date": "2026-11-26",
-      "count": 568,
-      "level": 4,
+      "count": 614,
+      "level": 3,
       "weekday": 4
     },
     {
       "date": "2026-11-27",
+      "count": 965,
+      "level": 4,
+      "weekday": 5
+    },
+    {
+      "date": "2026-11-28",
       "count": 0,
       "level": 0,
-      "weekday": 5
+      "weekday": 6
     }
   ],
-  "updated": "2026-11-27T03:28:52.019Z"
+  "updated": "2026-11-28T03:27:55.628Z"
 }
